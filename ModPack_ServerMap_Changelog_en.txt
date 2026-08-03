@@ -1,0 +1,23 @@
+BattleCraft ModPack & ServerMap — changelog
+
+ModPack v1.6.4 · BattleCraft mod v5.0.1
+Pack for Minecraft 1.20.1 (Forge 47.4.x, Java 17). The unified BattleCraft mod combines the gameplay modules:
+- BattleCraft core — mini-game lifecycle, team selection, Discord RPC
+- AirDrop — scheduled loot drops at set locations
+- CapturePoints — team-based point capture
+- CombatTimer — combat tag and combat-log protection
+- DamageIndicator — damage indicators
+- Immortality — spawn invulnerability
+- ItemModifiers — commands for tweaking item properties
+- KillReward — kill rewards
+- KnockDown — downed state, reviving allies and giving up
+- MiniMap — minimap and radar with team markers
+- QuarryMod — automated resource mining
+- SellMod — shop and item selling
+
+Sculk integration: Superb Warfare sounds and gunshots trigger sensors and shriekers; a shrieker summons the Warden on the first shriek.
+
+ServerMap v1.1.4
+- Updated arena map and capture zones
+- Spawn and control point balance fixes
+- Compatible with the current server mod pack version

@@ -1,0 +1,144 @@
+BattleCraft Launcher — changelog
+
+03.08.26
+- New versioning scheme: instead of numbers like 8.6.6, a version is now its release date - 03.08.26. A second build on the same day adds hotfix or v2 to the date (03.08.26hotfix, 03.08.26v2)
+- Nicknames are limited to 16 characters, the Minecraft limit: longer names could not join a server
+- Buttons no longer drift or stay enlarged after a click: hover and press animations are separated and always return the button to its original place
+- Removed the dotted focus outline that appeared when tabbing across buttons and checkboxes
+- In the servers tab, buttons and checkboxes are no longer clipped: the header with the tabs was moved out of the scrolling area and the glow got its own padding
+- Text fields no longer jitter while typing and no longer bleed past the panel edge: instead of resizing, the field lights up its border
+- Font glyphs in the interface were replaced with vector icons that recolor with the selected theme
+- The settings window now closes itself after a full settings reset
+- The launcher is now licensed under AGPL-3.0: forks and derivative builds must stay open source and keep the credit to the author
+
+v8.6.6
+- Forge updated to 47.4.22, the latest build for Minecraft 1.20.1. The launcher reinstalls Forge on first run; servers created through the launcher install the same version
+
+v8.6.5
+- Every launcher animation now runs on a purpose-built engine: instead of dozens of separate WPF animations, all motion is computed from formulas within a single render tick
+- The launcher detects the refresh rate of the display it is open on and paces animations to it; the rate is re-checked when the window moves to another monitor or the display mode changes
+- The particle burst on button clicks is noticeably lighter on the GPU: it is drawn as a single layer instead of a dozen and a half separate elements
+
+v8.6.4
+- Forge installation is more reliable: installer failures are now detected immediately, and the launcher no longer reports "Installation complete" when Forge did not install
+- Closing the launcher in any way (including Alt+F4) now stops a running server — previously it could keep running in the background
+- Unexpected errors no longer crash the launcher silently: a message is shown and a report is saved to crash-reports
+- Resuming a download now completes correctly when the file is already fully downloaded, and truncated server responses trigger a retry
+
+v8.6.3
+- Fixed broken Russian labels in settings (the language list and other captions showed garbled characters in 8.6.1—8.6.2)
+
+v8.6.2
+- The "Night aurora" and "Theme flow" backgrounds are twice as light on the GPU again: their animations now run in the same tick as the scene renderer, with no extra frame rebuilds
+- "Theme flow" now consumes less than the animated pixel scene
+
+v8.6.1
+- The "Night aurora" and "Theme flow" backgrounds are now much lighter on the GPU: their animations no longer tick at the monitor refresh rate (on 144 Hz the load dropped almost in half)
+- The gradient layers of these backgrounds are cached into textures — less GPU work on weaker machines
+
+v8.6.0
+- Two more backgrounds to choose from — four in total now, for every taste:
+- "Theme flow" (animated): soft color fields in your theme colors slowly drift and blend into each other in a beautiful gradient
+- "Minimal" (static): a calm theme-matched gradient with a subtle accent glow — no animations at all
+- All backgrounds are re-tinted live when the color preset changes
+
+v8.5.0
+- New static "Night aurora" background: a night sky with aurora ribbons tinted by the theme accent, twinkling stars, a moon and shooting stars over mountain silhouettes
+- Background selection in settings: the animated pixel scene or the static aurora — switching cross-fades smoothly
+- In static mode the pixel scene is not simulated — lower CPU usage
+- The changelog now opens in the interface language: an English version has been added
+
+v8.4.3
+- Fixed scrolling in dropdown lists: in 8.4.2 the wheel could fail to scroll the list at all — scrolling is now per-pixel and truly smooth
+
+v8.4.2
+- Smooth scrolling inside dropdown lists (presets, language, servers) — the wheel now glides the list with inertia, just like in settings
+
+v8.4.1
+- Fixed theme switching: preset selection and manual HEX colors apply again (regression since 8.2.0 — the color animation was silently failing)
+- Side menu buttons no longer stick with an offset after being pressed
+
+v8.4.0
+- The preset list is now as interactive as the other menus: items highlight and shift on hover, the selected one is shown in bold
+- Every preset in the list has two color dots (primary color and accent), so you can see the palette before choosing
+- Applying a preset smoothly blends the whole theme: background, buttons, neon glows and even the kite on the pixel scene flow into the new colors
+- The saved preset is now highlighted in the list when settings are opened
+
+v8.3.0
+- Preset and language menus now use the squircle style like the rest of the launcher: rounded corners, soft shadow, spacing from the field
+- Tooltips and context menus (copy/paste) redrawn to match the launcher theme — gray system windows no longer pop up anywhere
+- The dropdown arrow smoothly flips when the list opens
+- Checkboxes springily grow on hover
+- Unified corner radius for buttons, fields and lists — the interface feels more cohesive
+
+v8.2.0
+- The color preset list no longer closes while you scroll it with the wheel
+- Changing a preset smoothly blends the theme into the new colors instead of switching instantly
+- Dropdown lists open with a springy animation, items highlight and shift on hover
+- Sliders came alive: they grow on hover and pulse with a neon halo while dragging
+- Input fields slightly grow on focus and bounce elastically on every keystroke
+- Pop animation when picking a value in any list
+
+v8.1.1
+- The offer to install Java when it is missing now works on any Windows language
+- The CANCEL button terminates the game together with all child processes — nothing is left hanging in the background
+- Downloads without a known size no longer pile up in RAM
+- More reliable file copying during server installation and updates
+- Terminal errors are always marked with the [ERR] level
+
+v8.1.0
+- The interface became noticeably smoother: the animated background and the blob are now computed on a background thread, the window no longer stutters while dragging or during downloads
+- Reduced CPU and memory usage
+- English language: a switch in settings, full translation of the interface and logs
+- Reliable downloads: on a connection drop the file resumes from where it stopped, up to 5 automatic retries, stalled connections are cut off quickly
+- When the server port is busy, only the process holding the port is terminated, not all Java applications (a running game is no longer affected)
+- Changing the game folder no longer deletes files silently: if the folder is not empty, the launcher asks for confirmation
+- Mod and map versions are now stored separately for each server: updating one server no longer hides updates for the others
+- Declining a map update no longer marks it as updated — the offer returns on the next start
+- Fixed a freeze of dialog windows opened at the same time
+- The launcher slimmed down by about 3 MB by removing unused libraries
+
+v8.0.2
+- Full Windows 11 support: a compatibility manifest was added, the app no longer runs in compatibility mode
+- The launcher detects your system version (Windows 11 / 10) and shows it on the boot screen and in the terminal
+
+v8.0.1
+- The boot screen (creeper and glow) is now tinted to match the selected color preset
+- The Sakura theme is actually applied by default (fixed the default)
+- A loading screen while the official Minecraft profile loads (Microsoft license check)
+- Required components are checked at startup: if Microsoft Edge WebView2 is missing, it is downloaded and installed automatically
+
+v8.0.0
+- Button pop animations: a bubble bursts under the cursor on click — particles fly apart and a neon ring spreads out
+- The side menu came alive: smooth highlighting, sliding items and an elastic response on click
+- Animated switching between the Play and Servers tabs
+- Smooth entry into the launcher after setup, animated appearance of the login screen
+- Microsoft sign-in now shows a loading screen; on failure — a "try again" message
+- New ChangeLogs section: launcher and modpack history right in the side menu
+- Neon terminal glow and terminal opacity adjustment (from 5%)
+- The Sakura theme is now the default
+- The settings menu always opens from the top of the list
+- Fixed increased GPU usage while the launcher is minimized or in the background
+
+v7.9.x
+- Transparent glass panels, welcome animations pause in the background
+- Living pixel scene: time of day and seasons change
+- Weather: rain, snow, fog, thunderstorm with lightning from the clouds, comets behind the mountains
+- Trees with branching trunks and crowns, sakura with petals in spring, falling leaves in autumn
+- Snow, leaf and puddle accumulation, an uneven horizon, a figure with an umbrella
+
+v7.8
+- Separate installation and updating of the BattleCraft mod for the client and the server
+
+v7.7
+- Network download log and smooth percentage progress
+
+v7.6
+- Forge installation split into stages, a libraries warning, a unified log and crash reports
+
+v7.5
+- Installation into a BattleCraft subfolder with a clean reinstall
+
+v7.0 — v7.4
+- Pixel animated background and terminal menu, new logo, Discord RPC
+- Fixed lags and freezes while installing large files

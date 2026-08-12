@@ -1,5 +1,8 @@
 BattleCraft Launcher — changelog
 
+12.08.26v13
+- The modpack resource pack is now always enabled: the launcher checks it before the game starts and puts it back into the active list if it was disabled or reset after a mod reinstall
+
 12.08.26v12
 - The attack indicator is gone from the graphics settings
 - Swap offhand, third-person view and advancements are gone from the controls

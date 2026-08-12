@@ -1,5 +1,12 @@
 BattleCraft Launcher — changelog
 
+12.08.26
+- Manual edits to server.properties are no longer lost: on start the launcher updates only the settings it manages and leaves every other line of the file untouched
+- Simulation distance is no longer tied to view distance and is configured separately: by default the server renders 8 chunks and simulates 6, which noticeably lightens the tick
+- Server memory now defaults to 3 GB with matching lower and upper bounds, so the heap no longer grows in jumps during play
+- Added garbage collector settings for the server and corrected the client ones: fewer pauses while chunks load, and Distant Horizons is no longer at risk of running out of memory
+- Forge mod update checks and the spark background profiler are disabled on every start: fewer network calls at launch and less needless work during play
+
 08.08.26
 - After an update a BCR.exe.old file could be left next to the launcher: the new build waits for the old one to exit and then deletes the leftover, retrying while the file is still locked, so no update residue remains
 

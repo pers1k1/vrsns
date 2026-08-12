@@ -59,6 +59,9 @@
       "show_nametag_icons": "false",
       "show_group_hud": "false",
       "show_own_group_icon": "false"
+    },
+    "config/securitycraft-client.toml": {
+      "sayThanksMessage": "false"
     }
   }
 }

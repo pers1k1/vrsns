@@ -1,0 +1,52 @@
+{
+  "_header": "Ключи конфигов модов, которые лаунчер приводит к единому виду у всех игроков. Остальные строки файлов не трогаются.",
+  "files": {
+    "config/DistantHorizons.toml": {
+      "enableDistantGeneration": "false",
+      "enableServerGeneration": "false",
+      "numberOfThreads": "3",
+      "threadRunTimeRatio": "\"0.6\""
+    },
+    "config/parcool-client.toml": {
+      "can_CatLeap": "false",
+      "can_Vault": "false",
+      "can_Roll": "false",
+      "can_BreakfallReady": "false",
+      "can_Flipping": "false",
+      "stamina_hud_type": "\"Hide\""
+    },
+    "config/trulydark.properties": {
+      "dark_overworld": "true",
+      "dark_default": "true",
+      "dark_sky": "true",
+      "dark_moon": "true",
+      "dark_skyless": "true",
+      "dark_nether": "true",
+      "dark_end": "true",
+      "sky_merge": "true",
+      "ignore_moon_phase": "true",
+      "moon_phase_intensity": "1.0",
+      "sky_darkness": "0.3",
+      "fog_darkness": "0.3",
+      "cloud_darkness": "0.3",
+      "dark_nether_fog": "0.5",
+      "dark_end_fog": "0.0",
+      "entity_light_floor": "0.05",
+      "only_affect_block_light": "false",
+      "hard_lock": "false",
+      "require_client_mod": "false"
+    },
+    "config/tacz-client.toml": {
+      "GunHUDEnable": "false",
+      "KillAmountEnable": "false"
+    },
+    "config/superbwarfare-client.toml": {
+      "ammo_hud": "false",
+      "advanced_ammo_hud": "false",
+      "stamina_hud": "false"
+    },
+    "config/fml.toml": {
+      "versionCheck": "false"
+    }
+  }
+}

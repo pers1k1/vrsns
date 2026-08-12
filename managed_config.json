@@ -5,7 +5,12 @@
       "enableDistantGeneration": "false",
       "enableServerGeneration": "false",
       "numberOfThreads": "3",
-      "threadRunTimeRatio": "\"0.6\""
+      "threadRunTimeRatio": "\"0.6\"",
+      "showModCompatibilityWarningsOnStartup": "false",
+      "showGarbageCollectorWarning": "false",
+      "logGarbageCollectorWarning": "false",
+      "showExplicitGcDisabledWarning": "false",
+      "logExplicitGcDisabledWarning": "false"
     },
     "config/parcool-client.toml": {
       "can_CatLeap": "false",

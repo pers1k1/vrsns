@@ -47,6 +47,13 @@
     },
     "config/fml.toml": {
       "versionCheck": "false"
+    },
+    "config/voicechat/voicechat-client.properties": {
+      "hide_icons": "true",
+      "show_hud_icons": "false",
+      "show_nametag_icons": "false",
+      "show_group_hud": "false",
+      "show_own_group_icon": "false"
     }
   }
 }

@@ -1,5 +1,13 @@
 BattleCraft Launcher — changelog
 
+12.08.26v4
+- Controls in the game settings are split into sections: parkour, weapons, vehicles, BattleCraft, comms and other, instead of one long list
+- Wall slide moved to X, hanging from a ledge and clinging to a cliff moved to the right mouse button
+- Graphics gained field of view, brightness, clouds, entity shadows, view bobbing and auto jump
+- A sound section appeared: master volume, music, ambient and weather
+- The button showing an assigned key is no longer shifted to the right
+- Removed the vanilla hotbar hotkeys: by default they sat on C and X, the very keys used for zoom and dodge roll
+
 12.08.26v3
 - Game settings now live in the launcher: graphics (view and simulation distance, framerate cap, GUI scale, quality, particles, windowed mode, vsync) and controls
 - Modpack actions can be rebound from the launcher: click a key in the list and press a new one, a mouse button works too. If one key ends up bound to several actions, the launcher says so

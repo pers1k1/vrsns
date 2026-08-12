@@ -1,5 +1,8 @@
 BattleCraft Launcher — changelog
 
+12.08.26v10
+- Missile lock-on for planes, helicopters and armour is now on X by default
+
 12.08.26v9
 - Mod settings that must match for everyone are now aligned by the launcher before the game starts: Distant Horizons generation, parkour actions, Truly Dark darkness levels, duplicate weapon HUDs and Forge update checks
 - Only those values change, everything else in the configs stays yours: the chosen microphone, graphics tuned to your machine, personal preferences

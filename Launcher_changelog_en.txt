@@ -1,5 +1,10 @@
 BattleCraft Launcher — changelog
 
+12.08.26v7
+- A key bound to two actions at once now turns red, gets bracketed and shows a red mark on the left, the way the game itself does it
+- Leaving a vehicle moved to F, interacting with one moved to L
+- Vanilla options joined the game settings: mouse sensitivity and inversion, entity render distance, biome blend, mipmap levels, main hand, attack indicator, subtitles, pause on lost focus, toggle sneak and sprint, smooth lighting
+
 12.08.26v6
 - Animals and monsters are off by default on a new server: less load and no stray wildlife on a combat map
 - The create server button no longer looks broken without the EULA checkbox: it used to be simply unclickable, now the launcher says outright that the Mojang EULA has to be accepted

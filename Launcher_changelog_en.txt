@@ -1,5 +1,9 @@
 BattleCraft Launcher — changelog
 
+12.08.26v5
+- Parkour front and back flips are off, and so is the landing roll: it fired from the jump key right after a fall and got in the way
+- The launcher fixes the parkour settings itself on first install and from the recommended settings button, so there is no need to wait for a modpack update
+
 12.08.26v4
 - Controls in the game settings are split into sections: parkour, weapons, vehicles, BattleCraft, comms and other, instead of one long list
 - Wall slide moved to X, hanging from a ledge and clinging to a cliff moved to the right mouse button

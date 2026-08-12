@@ -1,5 +1,9 @@
 BattleCraft Launcher — changelog
 
+12.08.26v11
+- Voice chat icons are now always hidden: on the HUD, next to player names and in groups
+- Their toggle sat on H together with weapon inspection, so every inspect brought them back. The key is unbound, and the vehicle edit mode was unbound from the same H as well
+
 12.08.26v10
 - Missile lock-on for planes, helicopters and armour is now on X by default
 

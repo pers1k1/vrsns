@@ -1,5 +1,9 @@
 BattleCraft Launcher — changelog
 
+12.08.26v15
+- Fixed game startup: in v14 the client did not launch at all. Two garbage collectors were passed to the game at once, the old one and the new one, and Java refused to start
+- The garbage collector is now chosen by the memory allocated to the game. From 8 GB up Shenandoah is used for its short pauses, below that the previous one stays: on a small heap its pauses are short anyway, while Shenandoah would cost frames
+
 12.08.26v14
 - The game now runs on the Shenandoah garbage collector: its pauses are single-digit milliseconds instead of the previous two hundred, and they used to land exactly on far terrain loading. Short stutters when entering open areas should be gone
 - Removed the Distant Horizons startup warnings from chat: about Chunky, the garbage collector and explicit memory cleanup

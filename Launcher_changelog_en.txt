@@ -1,5 +1,9 @@
 BattleCraft Launcher — changelog
 
+12.08.26v14
+- The game now runs on the Shenandoah garbage collector: its pauses are single-digit milliseconds instead of the previous two hundred, and they used to land exactly on far terrain loading. Short stutters when entering open areas should be gone
+- Removed the Distant Horizons startup warnings from chat: about Chunky, the garbage collector and explicit memory cleanup
+
 12.08.26v13
 - The modpack resource pack is now always enabled: the launcher checks it before the game starts and puts it back into the active list if it was disabled or reset after a mod reinstall
 

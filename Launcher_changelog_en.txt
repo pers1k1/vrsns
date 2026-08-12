@@ -1,5 +1,12 @@
 BattleCraft Launcher — changelog
 
+12.08.26v8
+- The core game keys joined the controls: movement, jump, sneak, sprint, attack, use, inventory, drop, pick block, swap offhand, chat, command, player list, perspective, screenshot, fullscreen, advancements
+- Cleared the pile-up on G, where four actions sat at once: Curios slots moved to the opening bracket, the voice chat menu moved from V to the period key, voice groups were unbound
+- Keys with brackets, period, comma, slash, apostrophe and tilde can now be assigned as well
+- Entity render distance is maxed out by default
+- Subtitles, main hand, biome blend and mipmap levels were removed from the settings
+
 12.08.26v7
 - A key bound to two actions at once now turns red, gets bracketed and shows a red mark on the left, the way the game itself does it
 - Leaving a vehicle moved to F, interacting with one moved to L

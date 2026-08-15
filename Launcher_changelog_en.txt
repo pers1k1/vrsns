@@ -1,5 +1,9 @@
 BattleCraft Launcher — changelog
 
+15.08.26
+- The Crawl key is no longer bound for TACZ: lying down is handled by ParCool alone and now obeys stamina
+- The recommended layout leaves the TACZ crawl key unbound
+
 14.08.26
 - Ping location moved from Mouse 4 to the mouse wheel button and places both the Ping Wheel marker and the Superb Warfare target mark with a single key
 - Pick block moved from the wheel button to Mouse 4 so it no longer clashes with the ping

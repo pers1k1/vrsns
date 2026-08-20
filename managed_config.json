@@ -18,7 +18,8 @@
       "can_Roll": "false",
       "can_BreakfallReady": "false",
       "can_Flipping": "false",
-      "stamina_hud_type": "\"Hide\""
+      "stamina_hud_type": "\"Hide\"",
+      "stamina_consumption_of_FastRun": "2"
     },
     "config/trulydark.properties": {
       "dark_overworld": "true",

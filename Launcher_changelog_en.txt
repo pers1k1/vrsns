@@ -1,5 +1,9 @@
 BattleCraft Launcher — changelog
 
+20.08.26
+- The theme colors, primary and accent, are handed to the game: the BattleCraft mod paints its own interface in the palette picked in the launcher
+- The theme is refreshed in the game folder as soon as a color changes and again before every launch
+
 15.08.26
 - The Crawl key is no longer bound for TACZ: lying down is handled by ParCool alone and now obeys stamina
 - The recommended layout leaves the TACZ crawl key unbound

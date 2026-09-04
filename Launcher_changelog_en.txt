@@ -1,5 +1,11 @@
 BattleCraft Launcher — changelog
 
+04.09.26
+- Seven new theme presets: Bordeaux, Midnight, Pine, Heather, Tobacco, Linen and Frost
+- Bordeaux is a black backdrop with a burgundy accent, Midnight is a deep blue, Linen and Frost are the lighter ones
+- Custom presets: colors tuned by hand are stored under a name and join the preset list
+- Custom presets are saved with the rest of the configuration and removed from the same row
+
 02.09.26
 - The loader splash shown while the game starts is dark now instead of red and no longer clashes with the pack palette
 - The dark splash is applied on every launch, not only on fresh installs

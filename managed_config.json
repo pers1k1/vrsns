@@ -63,6 +63,9 @@
     },
     "config/securitycraft-client.toml": {
       "sayThanksMessage": "false"
+    },
+    "config/fallingleaves-client.toml": {
+      "disableWind": "true"
     }
   }
 }

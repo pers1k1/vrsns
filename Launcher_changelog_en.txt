@@ -1,5 +1,12 @@
 BattleCraft Launcher — changelog
 
+05.09.26
+- The modpack's recommended settings now reach everyone: an options file shipped inside the mods archive used to override them
+- When the recommended set changes, the launcher asks once whether to apply it and remembers the answer
+- A modpack update no longer wipes personal game settings
+- Game settings do not open while the game is running, since Minecraft would rewrite them on exit
+- The settings window no longer unbinds keys that are missing from the options file
+
 04.09.26
 - Seven new theme presets: Bordeaux, Midnight, Pine, Heather, Tobacco, Linen and Frost
 - Bordeaux is a black backdrop with a burgundy accent, Midnight is a deep blue, Linen and Frost are the lighter ones

@@ -1,23 +1,61 @@
-BattleCraft ModPack & ServerMap — changelog
+BattleCraft ModPack & ServerMap - changelog
 
-ModPack v1.6.4 · BattleCraft mod v5.0.1
+ModPack 05.09.26 · BattleCraft mod 05.09.26
 Pack for Minecraft 1.20.1 (Forge 47.4.x, Java 17). The unified BattleCraft mod combines the gameplay modules:
-- BattleCraft core — mini-game lifecycle, team selection, Discord RPC
-- AirDrop — scheduled loot drops at set locations
-- CapturePoints — team-based point capture
-- CombatTimer — combat tag and combat-log protection
-- DamageIndicator — damage indicators
-- Immortality — spawn invulnerability
-- ItemModifiers — commands for tweaking item properties
-- KillReward — kill rewards
-- KnockDown — downed state, reviving allies and giving up
-- MiniMap — minimap and radar with team markers
-- QuarryMod — automated resource mining
-- SellMod — shop and item selling
+- BattleCraft core: match lifecycle, team selection, pack interface, Discord RPC
+- AirDrop: scheduled loot drops at set locations
+- CapturePoints: team-based point capture
+- CombatTimer: combat tag and combat-log protection
+- DamageIndicator: damage indicators
+- Immortality: spawn invulnerability
+- ItemModifiers: commands for tweaking item properties
+- KillReward: kill rewards
+- KnockDown: downed state, reviving allies and giving up
+- MiniMap: minimap and radar with team markers
+- QuarryMod: automated resource mining
+- SellMod: shop and item selling
+- Zones: areas with their own rules, a new module
 
 Sculk integration: Superb Warfare sounds and gunshots trigger sensors and shriekers; a shrieker summons the Warden on the first shriek.
 
-ServerMap v1.1.4
-- Updated arena map and capture zones
-- Spawn and control point balance fixes
-- Compatible with the current server mod pack version
+BattleCraft mod: what is new
+- An interface instead of commands: everything is gathered in the /bc menu, the commands remain as a fallback
+- Glass styling: custom world and server pickers, custom loading screens, hover hints
+- Customization: palette, glass style, window motion sets, personal presets
+- HUD editor inside the game: blocks are dragged, snapped and resized with the mouse
+- Colors picked in the launcher are used by the mod interface
+- A first-run wizard walks through the setup in six steps
+- Zones: rules for what happens inside an area, including damage, explosions and access, with owner exceptions
+- Shop: departments and sections, stock with scheduled restocks, per-team access, vehicle requirements based on ammo and batteries
+- Capture points: several capture modes, progress rollback, a cooldown for the initiating team, three ways to split the reward
+- Minimap: explored terrain is shared across the team and never handed to the enemy
+- Markers: permanent landmarks with per-team visibility and world tags that never overlap
+- Survival Instinct adrenaline: a stamina bonus, a racing pulse and an overdose when taken too often
+- Stamina: it drains while jumping and is restored in full on respawn
+- Match rules: 17 switches, start requirements and module toggles
+- Killfeed, interface sound schemes, a custom font
+
+Mod list
+Added:
+- Canary, Saturn, spark: tick optimization and profiling
+- Camera Overhaul, Not Enough Animations: camera and body animations
+- ExtraSounds, Falling Leaves, Sodium Dynamic Lights: interface sounds, falling leaves, dynamic lighting
+- Mouse Tweaks, Clumps, Sodium Options API: inventory handling, experience merging, unified graphics settings
+
+Updated:
+- Distant Horizons 3.0.3 to 3.2.0
+- Superb Warfare to the final 0.8.9 build
+- SecurityCraft 1.10.0.1 to 1.10.2.1, Simple Voice Chat 2.6.18 to 2.6.21
+- Survival Instinct 1.0.2, ModernFix, GeckoLib, CreativeCore, ImmediatelyFast, LR Armor, SuperMartijn642 Core Lib
+
+Removed:
+- CustomNPCs, EntityCulling, NVG: unused, night vision is covered by the Superb Warfare scope
+
+Archive cleanup
+- Someone else's game options file is gone from the archive: it used to override the recommended pack settings for everyone who installed the pack
+- The pack resource pack is now named noglint.zip and the launcher enables it on its own
+- Leftovers from old installs are gone from the configs: WorldEdit sessions, the voice chat name cache, graphics tuned for another machine
+- Wind is disabled for falling leaves right in the archive, so leaves drop from trees instead of drifting in from the sky
+
+ServerMap 1.1.4
+- The map is unchanged

@@ -1,6 +1,6 @@
 BattleCraft ModPack & ServerMap - changelog
 
-ModPack 05.09.26 · BattleCraft mod 05.09.26
+ModPack 05.09.26hotfix · BattleCraft mod 05.09.26
 Pack for Minecraft 1.20.1 (Forge 47.4.x, Java 17). The unified BattleCraft mod combines the gameplay modules:
 - BattleCraft core: match lifecycle, team selection, pack interface, Discord RPC
 - AirDrop: scheduled loot drops at set locations
@@ -53,7 +53,7 @@ Removed:
 
 Archive cleanup
 - Someone else's game options file is gone from the archive: it used to override the recommended pack settings for everyone who installed the pack
-- The pack resource pack is now named noglint.zip and the launcher enables it on its own
+- The No Enchant Glint resource pack is gone from the pack: the launcher no longer enables resource packs for the player
 - Leftovers from old installs are gone from the configs: WorldEdit sessions, the voice chat name cache, graphics tuned for another machine
 - Wind is disabled for falling leaves right in the archive, so leaves drop from trees instead of drifting in from the sky
 

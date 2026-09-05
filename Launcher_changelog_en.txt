@@ -1,5 +1,8 @@
 BattleCraft Launcher — changelog
 
+05.09.26hotfix
+- The launcher no longer enables a pack resource pack in the game options: the resource pack list is left to the player
+
 05.09.26
 - The modpack's recommended settings now reach everyone: an options file shipped inside the mods archive used to override them
 - When the recommended set changes, the launcher asks once whether to apply it and remembers the answer

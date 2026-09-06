@@ -1,5 +1,14 @@
 BattleCraft Launcher — changelog
 
+06.09.26
+- Leaves and petals break off the tree crowns instead of falling out of an empty sky
+- Windy weather now stirs the same trees up instead of dropping extra particles from above
+- Removed the grid that sat on top of the background
+- A modpack update no longer deletes the player's own resource packs and shader packs
+- If a self-update fails to swap the file, the launcher restores the previous version
+- Cancelling a server install now removes only what the install created
+- A cancelled launch no longer breaks the state of the next one
+
 05.09.26hotfix
 - The launcher no longer enables a pack resource pack in the game options: the resource pack list is left to the player
 

@@ -65,7 +65,7 @@
       "sayThanksMessage": "false"
     },
     "config/fallingleaves-client.toml": {
-      "disableWind": "true"
+      "disableWind": "false"
     }
   }
 }

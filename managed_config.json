@@ -10,7 +10,8 @@
       "showGarbageCollectorWarning": "false",
       "logGarbageCollectorWarning": "false",
       "showExplicitGcDisabledWarning": "false",
-      "logExplicitGcDisabledWarning": "false"
+      "logExplicitGcDisabledWarning": "false",
+      "showHighVanillaRenderDistanceWarning": "false"
     },
     "config/parcool-client.toml": {
       "can_CatLeap": "false",

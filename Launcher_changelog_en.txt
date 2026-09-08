@@ -1,5 +1,10 @@
 BattleCraft Launcher — changelog
 
+08.09.26
+- Microphone mute moved to "+", freeing the N key
+- Vision goggles got their own bindings: N to toggle, M to switch mode, Y to zoom
+- The voice chat kill switch and the SecurityCraft camera keys that sat on N and "+" are unbound
+
 06.09.26
 - Leaves and petals break off the tree crowns instead of falling out of an empty sky
 - Windy weather now stirs the same trees up instead of dropping extra particles from above

@@ -1,8 +1,5 @@
 BattleCraft ModPack & ServerMap - changelog
 
-ModPack 09.09.26hotfix
-- Explosion Overhaul: the client config (explosionoverhaul-client.toml) now ships pre-configured in the archive - the mod's first-time setup screen no longer appears on a fresh pack install
-
 ModPack 05.09.26hotfix · BattleCraft mod 05.09.26
 Pack for Minecraft 1.20.1 (Forge 47.4.x, Java 17). The unified BattleCraft mod combines the gameplay modules:
 - BattleCraft core: match lifecycle, team selection, pack interface, Discord RPC

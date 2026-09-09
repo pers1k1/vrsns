@@ -1,8 +1,5 @@
 BattleCraft ModPack & ServerMap - история изменений
 
-ModPack 09.09.26hotfix
-- Explosion Overhaul: конфиг видеонастроек (explosionoverhaul-client.toml) теперь идёт в архиве уже настроенным - экран первичной настройки мода больше не появляется при чистой установке пака
-
 ModPack 05.09.26hotfix · мод BattleCraft 05.09.26
 Сборка для Minecraft 1.20.1 (Forge 47.4.x, Java 17). Единый мод BattleCraft объединяет игровые модули:
 - Ядро BattleCraft: жизненный цикл матча, выбор команды, интерфейс сборки, Discord RPC

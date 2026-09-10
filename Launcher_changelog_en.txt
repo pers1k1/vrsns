@@ -1,5 +1,11 @@
 BattleCraft Launcher — changelog
 
+10.09.26
+- Missing managed config files are created before the first launch, so Explosion Overhaul no longer opens its setup screen
+- The recommended GUI scale is now 2 and music volume is 2%
+- Minecraft's initial accessibility screen is skipped when BattleCraft is installed
+- GUI scale 4 is available in game settings again and no longer saves as 3
+
 08.09.26
 - Microphone mute moved to "+", freeing the N key
 - Vision goggles got their own bindings: N to toggle, M to switch mode, Y to zoom

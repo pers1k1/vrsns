@@ -1,5 +1,10 @@
 BattleCraft Launcher — changelog
 
+10.09.26hotfix
+- Recommended settings are created on the main screen and after changing the game folder, without opening game settings
+- Minecraft follows the launcher language: Russian selects ru_ru and English selects en_us
+- Minecraft's framerate cap follows the launcher's monitor refresh rate before every launch
+
 10.09.26
 - Missing managed config files are created before the first launch, so Explosion Overhaul no longer opens its setup screen
 - The recommended GUI scale is now 2 and music volume is 2%

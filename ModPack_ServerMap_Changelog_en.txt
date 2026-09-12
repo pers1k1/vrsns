@@ -1,5 +1,45 @@
 BattleCraft ModPack & ServerMap - changelog
 
+ModPack 12.09.26 · BattleCraft mod 12.09.26v2 ALPHA
+ALPHA - a test build. Until now the distributed mod was 5.0.1 from June, so the whole rewritten interface reaches players for the first time here. The build has not been played through end to end: report anything that looks wrong.
+
+BattleCraft mod: what is new
+- Search in the panels: a field in the header of every /bc and customization screen, filtering the open tab and listing matches from the neighbouring ones
+- Operator announcements: a message to a player, a team or everyone at once, as a corner notification or a full-screen plate, with its own display time
+- Value pickers explain the chosen value: every capture mode, reward split and cooldown scope carries its own description
+- Picker arrows answer the click, and the value slides in the direction of travel
+- The world scan of Explosion Overhaul is drawn in the pack's own style instead of the foreign overlay, and its questions on world entry are no longer asked
+- World markers and zone prompts leave the screen while the player list is held open
+- Returning from a sub-panel is animated instead of swapping the screen in one frame
+- Hints are in place on every row of /bc: match, statuses, lobby and stamina settings, manage entries
+
+Shop and modifiers
+- The order and contents of shop sections are edited in the interface itself
+- The item grid counts its rows honestly and pages by whole rows
+- Item modifiers accept fractional values and percentages
+
+Map and interface
+- The map paints chunks across the whole render distance
+- The map no longer loses explored chunks when an area is reloaded and no longer shows black holes after fast travel
+- Server-side map scanning delivers its last partial batch instead of dropping it
+- An operator teleports with the middle mouse button on the full map
+- The accessibility onboarding screen is skipped on first launch; vanilla tabs and vanilla screen text now follow the pack's styling
+
+Rules and gear
+- Config verification: the server keeps a reference snapshot and checks clients against it
+- Night vision goggles on their own keys, a scope, and blocks placed on capture points
+- The message line no longer overlaps the item name or the hotbar
+
+Mod list
+Added:
+- Vision Goggles: night and thermal vision on their own keys
+
+Configs
+- Distant Horizons and the pack HUD settings brought to their current values
+
+ServerMap 1.1.4
+- The map has not changed
+
 ModPack 05.09.26hotfix · BattleCraft mod 05.09.26
 Pack for Minecraft 1.20.1 (Forge 47.4.x, Java 17). The unified BattleCraft mod combines the gameplay modules:
 - BattleCraft core: match lifecycle, team selection, pack interface, Discord RPC

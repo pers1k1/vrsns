@@ -1,5 +1,9 @@
 BattleCraft ModPack & ServerMap - changelog
 
+ModPack 12.09.26hotfix · BattleCraft mod 12.09.26v2 ALPHA
+- Distant Horizons builds its far terrain from already generated chunks and asks the server for them instead of generating the world locally: less disk and CPU load when flying over unfamiliar chunks
+- The server mods and the BattleCraft mod are unchanged; only the client pack is updated
+
 ModPack 12.09.26 · BattleCraft mod 12.09.26v2 ALPHA
 ALPHA - a test build. Until now the distributed mod was 5.0.1 from June, so the whole rewritten interface reaches players for the first time here. The build has not been played through end to end: report anything that looks wrong.
 

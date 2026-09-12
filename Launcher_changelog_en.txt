@@ -1,5 +1,13 @@
 BattleCraft Launcher — changelog
 
+12.09.26
+- Field of view and mouse sensitivity are written the way Minecraft reads them: the number on the slider matches the one the game shows
+- Field of view now defaults to 70 and the GUI scale to automatic
+- Entity distance is gone from the settings and always stays at maximum
+- The framerate cap is rounded up to whole tens of the monitor refresh rate: 144 Hz gives 150, 101 Hz gives 110; the detected rate is shown in the label
+- Recommended settings are applied only to an installation without its own game settings; after that the "Recommended" button sets them
+- The smooth lighting checkbox got a clearer name in the Russian interface
+
 10.09.26hotfix
 - Recommended settings are created on the main screen and after changing the game folder, without opening game settings
 - Minecraft follows the launcher language: Russian selects ru_ru and English selects en_us

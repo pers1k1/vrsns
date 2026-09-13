@@ -1,5 +1,8 @@
 BattleCraft Launcher — changelog
 
+13.09.26
+- Modded key bindings no longer reset on the first launch: the launcher sets the chat line spacing itself, so the pack mod stops rewriting the options before the game reads the bindings
+
 12.09.26v3
 - Settings written by the launcher no longer vanish on the first launch: options.txt now carries the game data version, without which Minecraft dropped the whole file and started with vanilla settings
 

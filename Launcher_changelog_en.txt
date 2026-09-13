@@ -1,5 +1,10 @@
 BattleCraft Launcher — changelog
 
+13.09.26v8
+- Game files damaged by a broken download are found and re-downloaded automatically: the game no longer dies in a second with a SecureJar error
+- The system check reports damaged pack files, not just empty ones
+- The installer integrity check is no longer switched off for good
+
 13.09.26v7
 - The game output goes to game-output.log next to the launcher log, so the cause is visible even when the game dies before writing its own logs
 - If Java refuses to start, the launcher drops the garbage collector flags or lowers the allocated memory and starts the game again by itself

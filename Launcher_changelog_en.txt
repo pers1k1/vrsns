@@ -1,5 +1,8 @@
 BattleCraft Launcher — changelog
 
+13.09.26v9
+- The pack files are verified in parallel: the walk takes two tenths of a second instead of a full one
+
 13.09.26v8
 - Game files damaged by a broken download are found and re-downloaded automatically: the game no longer dies in a second with a SecureJar error
 - The system check reports damaged pack files, not just empty ones

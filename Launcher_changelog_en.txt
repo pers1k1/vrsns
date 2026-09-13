@@ -1,5 +1,10 @@
 BattleCraft Launcher — changelog
 
+13.09.26v6
+- Downloading the Minecraft files resumes where it broke instead of failing whole: up to twelve attempts in a row
+- After a break the number of download threads narrows from twelve to four, two and one and is remembered, which is what makes it work behind an antivirus that inspects HTTPS
+- The log is no longer flooded with repeats of the same system-check warning
+
 13.09.26v5
 - Settings and logs are no longer lost when the Documents folder is locked by cloud sync or an antivirus: the launcher moves them to AppData and carries the old config over
 - Saving and reading the settings no longer fail silently, and a broken config is kept as a copy next to the new one

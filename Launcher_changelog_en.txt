@@ -1,5 +1,8 @@
 BattleCraft Launcher — changelog
 
+13.09.26hotfix
+- The launcher no longer crashes when options.txt is locked by another launcher copy or by the game: the file is replaced atomically and a locked one is skipped
+
 13.09.26
 - Modded key bindings no longer reset on the first launch: the launcher sets the chat line spacing itself, so the pack mod stops rewriting the options before the game reads the bindings
 

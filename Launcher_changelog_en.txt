@@ -1,5 +1,11 @@
 BattleCraft Launcher — changelog
 
+13.09.26v5
+- Settings and logs are no longer lost when the Documents folder is locked by cloud sync or an antivirus: the launcher moves them to AppData and carries the old config over
+- Saving and reading the settings no longer fail silently, and a broken config is kept as a copy next to the new one
+- A broken connection is explained in plain words: antivirus HTTPS scanning, a VPN, a proxy or provider blocking, instead of the raw transport stream sentence
+- The system check now also shows up on the very first run, before signing in
+
 13.09.26v3
 - A system check on every start: Windows, Visual C++, WebView2, hardware acceleration and the video driver, memory, folder permissions, free space, the pack path, Java and the mod files
 - Missing components install straight from the launcher, the driver button opens the vendor page, and nothing blocks the way into the game

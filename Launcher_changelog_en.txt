@@ -1,5 +1,13 @@
 BattleCraft Launcher — changelog
 
+13.09.26v10
+- Sixteen new theme presets: dusty rose, taupe, cocoa, clay, terracotta, caramel, latte, sand, marzipan, cashmere, powder, ivory, sage, haze, indigo and copper
+- Updating the server mods no longer pulls the whole archive when only the BattleCraft mod failed to download: just the mod is fetched
+- Declining the BattleCraft download at the end of a server install no longer deletes the server that was already provisioned
+- A thunderstorm and the night now dim the rain, snow, fog, comets and falling leaves together with the rest of the scene instead of leaving them glowing
+- Petals and leaves settle on the ground and fade out after a while instead of vanishing on contact
+- A petal carries the colour of the crown it fell from, and cherry blossom piles up on the ground under sakura
+
 13.09.26v9
 - The pack files are verified in parallel: the walk takes two tenths of a second instead of a full one
 

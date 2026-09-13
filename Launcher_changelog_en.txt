@@ -1,5 +1,12 @@
 BattleCraft Launcher — changelog
 
+13.09.26v3
+- A system check on every start: Windows, Visual C++, WebView2, hardware acceleration and the video driver, memory, folder permissions, free space, the pack path, Java and the mod files
+- Missing components install straight from the launcher, the driver button opens the vendor page, and nothing blocks the way into the game
+- Without hardware acceleration the glow turns itself off so the window stops flickering and showing black rectangles
+- Failures are no longer silent: if the game crashed or died while loading, the launcher shows the errors from the game log and the path to the report
+- Install results are verified: an empty mods folder, a missing BattleCraft mod, a locked old mod and lost personal settings are now visible right away
+
 13.09.26hotfix
 - The launcher no longer crashes when options.txt is locked by another launcher copy or by the game: the file is replaced atomically and a locked one is skipped
 

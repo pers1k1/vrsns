@@ -1,5 +1,35 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 13.09.26 ALPHA
+Only the mod is updated; the client and server packs are unchanged.
+
+Capture points
+- A point can run a command when it is taken: a row in /bc, with the point name, the owning team and the coordinates as placeholders
+- The capture reward can be switched off with a zero, and the reward and income items are taken from the hand
+- Point income and its interval are set from the menu, not only by command
+- The owner of a point can be cleared straight from the owner row
+- A final point now carries the same settings as an ordinary one
+
+Marks
+- A mark can stay on the map only: no tag over the world, while the minimap and the full map keep it
+- A mark can be renamed from the menu
+- World tags have a size of their own: a slider in the customization screen, from half to one and a half of the stock size
+
+Interface
+- The whole capture HUD leaves under the player list with an animation instead of being dropped from the frame
+- Panels refresh at once: an added or removed command, a renamed mark and a changed owner are visible without reopening
+- The Require teams switch did nothing at all; it works now
+- The commands run at match start, at match stop and on surrender are edited in the Automation tab
+- The build config check has a screen of its own: take a snapshot, recheck, clear, forget a single path
+- Airdrop: loot count, chance and order, duplicate, tag stripping, clearing the table, and the drop centre by coordinates
+- Quarry: the cooldown of the block in the crosshair and a list of quarry blocks
+- Immortality is granted and taken per player from the menu
+- Item modifiers: lore lines, and effects and attributes go into the selected item
+- Selling: price and currency by item identifier
+- Shop: an item by identifier, and moving an item or a subsection into another section
+- Zones: the zone colour and the way back to the team colour
+- Game rules reset in one row, and a team is created under any name
+
 ModPack 12.09.26hotfix · BattleCraft mod 12.09.26v2 ALPHA
 - Distant Horizons builds its far terrain from already generated chunks and asks the server for them instead of generating the world locally: less disk and CPU load when flying over unfamiliar chunks
 - The server mods and the BattleCraft mod are unchanged; only the client pack is updated

@@ -1,5 +1,10 @@
 BattleCraft Launcher — changelog
 
+13.09.26v7
+- The game output goes to game-output.log next to the launcher log, so the cause is visible even when the game dies before writing its own logs
+- If Java refuses to start, the launcher drops the garbage collector flags or lowers the allocated memory and starts the game again by itself
+- The --debug mode now prints the game lines straight into the launcher terminal instead of a separate console window
+
 13.09.26v6
 - Downloading the Minecraft files resumes where it broke instead of failing whole: up to twelve attempts in a row
 - After a break the number of download threads narrows from twelve to four, two and one and is remembered, which is what makes it work behind an antivirus that inspects HTTPS

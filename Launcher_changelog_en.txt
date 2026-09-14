@@ -1,5 +1,11 @@
 BattleCraft Launcher — changelog
 
+14.09.26v3
+- A nickname can no longer be typed in anything but Latin: the field takes letters, digits and _ only, pasted text included
+- A nickname edited into the config by hand is reported on start and the launcher asks for a new one
+- The server whitelist follows the same rule
+- Version numbers now understand a suffix like hotfixv2
+
 14.09.26hotfix
 - The BattleCraft points key joins the action list, `I` by default
 - The recommended layout was shuffled: the map on M, the goggles mode switch on J, the fire selector of both weapon mods on H, weapon inspection on G

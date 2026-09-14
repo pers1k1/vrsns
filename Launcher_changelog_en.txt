@@ -1,5 +1,9 @@
 BattleCraft Launcher — changelog
 
+14.09.26
+- A petal no longer blinks just before it lands: on the frame it touched the ground nothing drew it
+- The petal litter lies under the sakura crowns and fades out away from them instead of covering the whole ground evenly
+
 13.09.26v10
 - Sixteen new theme presets: dusty rose, taupe, cocoa, clay, terracotta, caramel, latte, sand, marzipan, cashmere, powder, ivory, sage, haze, indigo and copper
 - Updating the server mods no longer pulls the whole archive when only the BattleCraft mod failed to download: just the mod is fetched

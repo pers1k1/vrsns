@@ -1,5 +1,28 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 14.09.26hotfix PRE-ALPHA
+Only the mod is updated, the client and server packs are unchanged. This build was never played through.
+
+Showcase editor
+- The shop panel gained a Showcase row: the shop opens the way a player sees it, on the whole catalogue
+- A tile is dragged with the mouse, the neighbours move aside, and the item lands where it was dropped
+- In the editor the buy button becomes a remove button, and the selection steps to the neighbour
+- A button switches the showcase to what a chosen team is actually offered
+- The item model spins and zooms, and the editor stays open outside a shop zone
+
+Capture points
+- A point holds a list of commands instead of one: each is shown in full with its own remove button, up to eight
+
+Map
+- A label carries its own size: a slider in the panel, a command, and the corner handle after a double click
+- Who sees a label is set on the map itself
+- Black joined the colour palette
+- Every map marker keeps its size relative to the map instead of appearing to shrink as you zoom in
+
+Interface
+- Switching a value with the arrows is animated again
+- Deleting in a list no longer throws the selection back to the top
+
 BattleCraft mod 14.09.26 PRE-ALPHA
 Only the mod is updated, the client and server packs are unchanged. This build was never played through: report anything that breaks.
 

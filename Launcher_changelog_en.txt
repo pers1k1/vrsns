@@ -1,5 +1,9 @@
 BattleCraft Launcher — changelog
 
+15.09.26
+- The recommended layout follows the new mod: radio transmit on Caps Lock, the points key left of the digits, capture and revive back on left Alt, goggle zoom on Y
+- Interacting with a gun in hand moved to mouse button 5 and joined the action list of the game settings window
+
 14.09.26v5
 - The radio transmit key sits on left Alt: it is in the recommended layout and in the game settings window
 - Capture and revive moved from left Alt to right Alt, so reviving a teammate no longer puts you on the air

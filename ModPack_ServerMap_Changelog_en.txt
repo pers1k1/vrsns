@@ -1,5 +1,15 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 15.09.26 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- Radio transmit moved to Caps Lock: the key is free and falls under the little finger, at the price of Windows flipping the caps state on every press
+- The points key moved to the key left of the digits, capture and revive are back on left Alt, goggle zoom sits on Y
+- Interacting with a gun in hand moved to mouse button 5, next to melee
+- Every key of the pack now lives in one BattleCraft section of the controls screen, and the surrender key is finally named
+- Switching colours and glass no longer blinks: the palette travels over half a second, both in first-run setup and in customisation
+- The item icon in the shop no longer jitters behind its tile
+
 BattleCraft mod 14.09.26v9 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

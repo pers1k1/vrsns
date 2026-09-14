@@ -1,5 +1,12 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 14.09.26v3 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- A showcase tile lifts when it is picked up and settles with a motion when it is dropped
+- A dropped tile travels from where it was let go instead of from the slot it came from
+- The team button in the editor no longer flickers
+
 BattleCraft mod 14.09.26hotfix PRE-ALPHA
 Only the mod is updated, the client and server packs are unchanged. This build was never played through.
 

@@ -1,5 +1,17 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 14.09.26v9 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- The radio clicks on its own: a relay click when you key up, a roger beep with a squelch tail when you release, a chirp when someone else starts and a tail when they stop
+- Switching the radio on and off is audible too, and it is one sound, not two
+- Transmitting now happens on left Alt with the radio on your belt: no need to take it in hand, your weapon stays there
+- Pressing it with no radio, with the radio off or muted, with no microphone or with the voice chat off answers with a note saying which of those it is
+- A radio held in hand transmits the way it did, and the two paths never run at once, so no one hears a doubled voice
+- Capture and revive moved from left Alt to right Alt; the transmit key is set in the launcher's game settings window and on the Interface tab of customisation
+- The radio clicks have their own switch in the same place
+- Other mods' settings screens no longer open in game: the pack ships their values, and they are edited in the file only
+
 BattleCraft mod 14.09.26v6 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged. Build v5 could not be downloaded - the file in the release was not named the way the launcher looks for it; v6 replaces it.
 

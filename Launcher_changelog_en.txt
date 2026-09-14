@@ -1,5 +1,10 @@
 BattleCraft Launcher — changelog
 
+14.09.26v5
+- The radio transmit key sits on left Alt: it is in the recommended layout and in the game settings window
+- Capture and revive moved from left Alt to right Alt, so reviving a teammate no longer puts you on the air
+- The config-screen keys of the weapon and parkour mods are unbound: the pack ships those settings and they no longer open in game
+
 14.09.26v4
 - A missing or damaged Forge profile is installed by the launcher itself instead of stopping at a "Forge not found" dialog
 - A fresh install starts the game in fullscreen

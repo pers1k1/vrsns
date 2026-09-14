@@ -1,5 +1,12 @@
 BattleCraft Launcher — changelog
 
+14.09.26v4
+- A missing or damaged Forge profile is installed by the launcher itself instead of stopping at a "Forge not found" dialog
+- A fresh install starts the game in fullscreen
+- Recommended layout: push-to-talk on V, melee of both weapon mods on mouse button 5, scope zoom and decoy flares on "-"
+- Scope zoom and decoy flares joined the action list
+- Players who already have settings move onto it with the "Recommended" button
+
 14.09.26v3
 - A nickname can no longer be typed in anything but Latin: the field takes letters, digits and _ only, pasted text included
 - A nickname edited into the config by hand is reported on start and the launcher asks for a new one

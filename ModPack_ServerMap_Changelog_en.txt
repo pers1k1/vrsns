@@ -1,5 +1,34 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 14.09.26 PRE-ALPHA
+Only the mod is updated, the client and server packs are unchanged. This build was never played through: report anything that breaks.
+
+Shop
+- Every item carries its own stock scope: shared for the whole server, one per team, or one per player
+- A limit like "one every thirty seconds" on a personal stock no longer queues the whole team
+- The scope is a row named Stock on the Stock tab of the shop panel
+
+Map
+- Labels: text without a plate and without a dot, glowing in its own colour, up to six lines
+- The middle mouse button opens a menu of actions: teleport here, a new label, and on a label its text, lines, colour and deletion
+- An operator moves a label by double clicking and dragging, and a hovered label lights up
+- A label follows the same team visibility as a mark and is edited in the same panel
+
+Capture points
+- A point is required or optional: only required points open the final one
+- A point can be hidden from the HUD while staying on the map and being captured as usual
+- A new switch keeps the final point for the team that opened it
+
+Gear
+- Every player carries the IFF device during a match: it cannot be taken off or dropped, it does not fall on death, and it is removed when the match ends
+- A device the player bought is left alone
+- The rule sits with the combat rules and can be switched off
+
+Fixed
+- The /clear command did not touch Curios slots, so worn items survived it
+- The shop panel did not notice a price, stock or restock change made elsewhere
+- No menu screen rebuilds itself while a row is taking a typed number or a key
+
 BattleCraft mod 13.09.26 ALPHA
 Only the mod is updated; the client and server packs are unchanged.
 

@@ -1,5 +1,16 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 14.09.26v6 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged. Build v5 could not be downloaded - the file in the release was not named the way the launcher looks for it; v6 replaces it.
+
+- The walkie-talkie is visible in the HUD: while someone speaks on your channel a transmission card sits in the right-hand stack - a record dot, who is talking, how long, a signal meter and a running recording trace
+- The trace starts at the first word; a tick in it is voice, a dot is silence
+- A teammate is named; an opponent on the same channel is not - a shifting set of symbols stands in for the name, and the server never sends it
+- Your own transmission takes the top card, and the same trace unrolls next to the microphone badge while you talk
+- The trace is driven by the voice chat itself, so music, Discord and game sounds never move it
+- Radio voice now goes through the air: a narrow band and clipping, with distance adding hiss, dropouts and muffling - the further away the speaker, the worse they are heard
+- The cards, the trace by the microphone, the distortion and the interference strength are all switches and a slider on the Interface tab of Customisation, and the Radio traffic slot drags and resizes like the rest
+
 BattleCraft mod 14.09.26v5 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

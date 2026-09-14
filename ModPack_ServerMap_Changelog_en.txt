@@ -1,5 +1,16 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 14.09.26v5 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- A key of its own for the points in the HUD, `I` by default: a tap hides and brings them back, holding inverts them only for as long as it is held
+- The key hides the point tags, the objective bar and the pills; the return card, your own capture bar and the victory banner still leave only with the player list
+- The points leave and come back with the same animation the player list already used, in both directions
+- The binding is a row on the interface tab of the customization screen and a line in the launcher game settings
+- The map moved from J to M, the goggles mode switch from M to J
+- The TACZ and SuperbWarfare fire selectors both sit on H, which also ends the clash between the SuperbWarfare fire mode and the goggles toggle on N
+- Weapon inspection moved onto the freed G
+
 BattleCraft mod 14.09.26v4 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

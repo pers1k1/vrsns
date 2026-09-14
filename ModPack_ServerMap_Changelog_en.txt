@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 14.09.26v4 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- A plate that leaves by shrinking now shrinks its contents: the name in a capture pill no longer stays at full size
+- The range chip of a world tag grows together with the room made for it
+
 BattleCraft mod 14.09.26v3 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

@@ -1,5 +1,15 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 15.09.26hotfix PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- Switching the language no longer drops the buttons back to their vanilla look while the game reloads
+- The pause screen, the inventory, the creative inventory and every vanilla container stopped being built twice on each open
+- Item modifier values are typed in whole percent: 1% is 0.01, 100% is 1.00, and no field in the screen takes a fraction any more
+- On a server an item tooltip now shows the configured attributes, and a shop card updates right after a change instead of waiting for a relog
+- Instantaneous effects are no longer handed out by items: endless healing and damage that could not be lifted are closed
+- A lingering debuff keeps its own level instead of dropping to the first
+
 BattleCraft mod 15.09.26 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

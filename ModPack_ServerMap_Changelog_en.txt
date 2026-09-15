@@ -1,5 +1,12 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 15.09.26v6 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- A base or shop tag in the HUD collapses to its dot until the crosshair is on it, the way a capture point tag does: it no longer covers the view or pushes its neighbours around
+- A collapsed tag is easier to spot, its dot is less transparent
+- Player markers, team and personal alike, are drawn in the interface accent colour in the world, on the minimap and on the full map
+
 BattleCraft mod 15.09.26v5 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

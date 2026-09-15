@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 15.09.26v5 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- An item's modifier list now says how its number is applied: flat, of the base, or of the total
+- The slot an entry was written for sits beside the attribute name, and an effect says whether it is a buff or a debuff next to its level
+
 BattleCraft mod 15.09.26v4 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

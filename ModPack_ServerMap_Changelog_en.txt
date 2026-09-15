@@ -1,5 +1,13 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 15.09.26v7 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- A world tag now fades out at its range limit instead of vanishing in a single frame
+- Marker range is a setting now: capture points, bases and shops, map marks and player markers, 1500 blocks each. The Markers tab in the game rules and the /bc markers commands
+- A player marker and an ally position remember the world they were made in, so a ping placed in the nether is no longer drawn in the overworld
+- The tag of a removed zone no longer lingers in the world
+
 BattleCraft mod 15.09.26v6 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

@@ -1,5 +1,14 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 15.09.26v3 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- A number typed into a menu row is no longer lost: the panel rebuilt itself on a snapshot mid-typing, and the button sent the previous value
+- The item modifier value is a fractional field again, in attribute units, five decimals, one row for all three operations
+- An item's own entry now overrides the configured one: an item set up by command and then from the panel was applying twice the value
+- The hint window and its text land on whole screen pixels; moving the mouse slowly made the letters shimmer
+- A capture point tag in the HUD collapses to its dot when the crosshair is not on it, and stops taking space and pushing its neighbours around
+
 BattleCraft mod 15.09.26hotfix PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

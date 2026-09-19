@@ -1,5 +1,12 @@
 BattleCraft Launcher — changelog
 
+19.09.26
+- The launcher says what it is doing: install, game launch, sign-in, updates, the server tab and settings changes are tagged in latest.log
+- The log no longer drowns: the names of downloading files stay in the launcher window, the file keeps the steps themselves
+- The bundled Java is found by its real path instead of walking the whole runtime folder on every launch
+- A new launcher icon
+- The eye button in the title bar hides the interface and leaves the background alone
+
 15.09.26
 - The recommended layout follows the new mod: radio transmit on Caps Lock, the points key left of the digits, capture and revive back on left Alt, goggle zoom on Y
 - Interacting with a gun in hand moved to mouse button 5 and joined the action list of the game settings window

@@ -1,5 +1,25 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 24.09.26v3 PRE-ALPHA
+Changes since build 15.09.26v7, packs unchanged. An old client does not work with the new server: network channels changed version.
+
+- Loot caches: any chest, barrel, furnace or shulker box can become a cache with match loot - filled when the match starts, optionally refilled on a timer or after it is emptied, emptied when the match ends and locked outside a match
+- A cache is marked by a quiet shader: a thin frame hugging the block with a light running along its edges, a pool of light on the floor, a ring counting to the next refill and a wave on fill; colour by rarity, a hidden cache does not glow
+- A cache cannot be broken, blown up, drained by a hopper or merged with a chest placed next to it
+- Loot editor (/airdrop editor): items as tiles, drag to reorder, drag in from the inventory or from all items with search, chance and counts as numbers, the real drop chance and a test roll
+- Attachment bench for guns in loot and in the shop: 3D model, slots as cards, attachments as tiles with icons, hover shows what an attachment gives; SuperbWarfare attachments now show on the model
+- No more taking items from the hand: kill reward, point reward and income, sell price and currency and new shop items are picked in a window with the inventory, search and a model
+- Airdrop: settings from the menu no longer reset, the zone center works, the fall time is honest, a crate lands and despawns far from players, its map marker stays until it is looted, nothing can be put into a crate
+- New airdrop settings: drops only during a match, clear crates when the match ends, announce coordinates or leave only the smoke, pick the loot table
+- Loot commands now name the table: /airdrop loot <table> ...
+- An open menu is visible to others: the player holds a glass window of the open screen, teammates see a live frame in it
+- The quarry is calmer, ore tags only up close and in plain sight, the pickaxe wears
+- Tags leave the HUD while you stand in their zone; an operator mark can draw its hide zone
+- Damage numbers are drawn in the pack's own font under the crosshair
+- Every colour is picked with the palette, zones and quarry cells fade in, the selection in world and server lists glides
+- Buttons ease between enabled and disabled and swap labels smoothly, menu rows no longer nudge their value when pressed
+- Long text scrolls and dissolves at the edge, the island cover and Discord picture are sharp
+
 BattleCraft mod 15.09.26v7 PRE-ALPHA
 Fixes on top of the previous build, the packs are unchanged.
 

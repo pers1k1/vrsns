@@ -1,5 +1,26 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 24.09.26v4 PRE-ALPHA
+Changes since build 24.09.26v3, packs unchanged. An old client does not work with the new server: network channels changed version.
+
+- The music visualizer on the island now follows the iPhone: bar colour comes from the blurred cover art, bars are split by frequency (bass on the left), they move in a jump and settle 15 times a second, and loudness is no longer adjusted automatically
+- An open menu is no longer shown to other players: the window held in hand and the live frame for teammates are gone
+- The config check no longer kicks clients installed from the launcher: personal files (voice chat, graphics, Distant Horizons, the pack's own module configs) are not compared, a file the player lacks is not a mismatch, and an operator stays on the server and gets the list of files instead
+- Menus are smoother: row values, toggles and keys change with a slide, the selection in side lists fades out and in, rows glide to their new place, and a server reply no longer resets row animations
+- Team select, the map and minimap settings open and close like every other menu, and players fade in and out in team select
+- Commands that run other commands as the server (addcommand for /bc and for points) require level 4
+- A point buff with an unknown effect is rejected on input and no longer crashes the server; final point bonuses survive a restart
+- The final point is not handed to a team that may not take it; a surrender vote counts only online players, and the winner is chosen among teams with players
+- Map marks no longer generate chunks, map chunks from clients are not accepted, and team maps are saved safely
+- Selling: the currency cannot be sold and an item with a price cannot become the currency; the guard is switched off with /sell currencyguard or the "Currency guard" row in the sell menu
+- Immortality ends when the immortal player attacks; void damage goes through it
+- Knockdown: only teammates can revive, a downed player deals no damage; /knockdown config rejects values outside the config ranges
+- No kill reward for killing yourself
+- The no-build rule in zones now covers buckets, flint and steel and fire charges
+- Leaving a match no longer duplicates items; the combat timer and the IP lock (ipLock) are kept in config
+- Menu fields accept up to 256 characters, a shop item description up to 160, and a command too long to send is not sent from the menu
+- The red alarm tint in the HUD is laid over the dimming instead of turning it black; the first-run wizard goes back only on Esc
+
 BattleCraft mod 24.09.26v3 PRE-ALPHA
 Changes since build 15.09.26v7, packs unchanged. An old client does not work with the new server: network channels changed version.
 

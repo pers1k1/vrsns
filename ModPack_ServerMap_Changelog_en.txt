@@ -1,5 +1,17 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 24.09.26v5 PRE-ALPHA
+Changes since build 24.09.26v4, packs unchanged. The network protocol is unchanged: a 24.09.26v5 client works with a 24.09.26v4 server.
+
+- A player in a team is no longer kicked with "Illegal packet received" a few seconds after joining, singleplayer included
+- After a disconnect, Back from the server list leads to the title screen instead of the disconnect screen again
+- The visualizer no longer follows the player's volume: the bars stand the same height from full volume down to one percent
+- The visualizer answers the sound about twice as fast, without stalls, and moves more smoothly
+- The island listens to the Windows Media Player app, Telegram, VLC, PotPlayer, MPC, Winamp and other local players; for players Windows knows nothing about, the track name comes from the window title
+- A paused Spotify or browser tab no longer holds the island while a local player is playing
+- A track without artwork shows the avatar instead of the previous track's cover; artwork the game could not read before is now shown
+- A track without a timeline (Telegram) counts its own time and shows the artist instead of "0:00 / 0:00"
+
 BattleCraft mod 24.09.26v4 PRE-ALPHA
 Changes since build 24.09.26v3, packs unchanged. An old client does not work with the new server: network channels changed version.
 

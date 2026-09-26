@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 26.09.26v4 PRE-ALPHA
+Changes since build 26.09.26v3, packs unchanged. The network protocol is unchanged: a 26.09.26v4 client works with a 26.09.26v3 server.
+
+- In the shop, airdrop and buyback editors a right click on an item, a section, a cache, a table or empty space opens a menu of actions: copy, attachments, move to start or end, delete, new part, rename, move up or down, fill and empty a cache, test roll, change the currency
+- The menu unfolds from the cursor and its highlight follows the mouse; deleting a section, a part, a table or a cache asks for a second click, and Esc or a click outside closes it
+
 BattleCraft mod 26.09.26v3 PRE-ALPHA
 Changes since build 26.09.26hotfix, packs unchanged. The network protocol is unchanged, but update the server and the client together: the server now accepts tagged items from the editor.
 

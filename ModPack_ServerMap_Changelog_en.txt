@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 26.09.26v3 PRE-ALPHA
+Changes since build 26.09.26hotfix, packs unchanged. The network protocol is unchanged, but update the server and the client together: the server now accepts tagged items from the editor.
+
+- In the shop, airdrop and buyback editors, All items shows everything the creative inventory has, with every variant: each TACZ gun, potion and enchanted book is its own tile
+- Such an item goes into the shop or a loot table with its tag instead of as an empty placeholder
+
 BattleCraft mod 26.09.26hotfix PRE-ALPHA
 Changes since build 26.09.26, packs unchanged. The network protocol is unchanged: a 26.09.26hotfix client works with a 26.09.26 server.
 

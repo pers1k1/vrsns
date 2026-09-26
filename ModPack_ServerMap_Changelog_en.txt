@@ -1,5 +1,22 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 26.09.26 PRE-ALPHA
+Changes since build 24.09.26v5, packs unchanged. The network protocol is unchanged, but update the server and the client together: the fixes work on the server.
+
+- The shop, the airdrop with its caches and loot tables, and the buyback are each edited in one editor: sections on the left, the showcase in the middle the way a player sees it, every property of the chosen thing on the right. Items are dragged from a shelf onto the showcase, tiles and sections are reordered with the mouse, and a new thing is selected at once
+- Creating a shop section under a name already taken no longer wipes the old one with its items
+- A downed player inside their own base no longer stands up with half a heart when the timer runs out or they give up; /kill works inside a base
+- A downed player or a spectator cannot trade in the shop, and shop stock refills at every match
+- A kill pays only for an enemy with a team, and no more than once in 90 seconds for the same player
+- Point bonus holograms no longer multiply, spectators and dead players cannot start a capture, and joining a capture removes spawn immortality
+- A hopper minecart no longer drains a cache, and only a chest or a barrel can be one
+- The airdrop does not show its landing spot on the map unless coordinates are announced
+- The quarry regenerates mined blocks after a server crash too, and a large drop is given in full
+- Item modifiers come off when switched off, and effect levels from several items add up correctly
+- Zone rules hold against pistons, item frames, armour stands and chests on minecarts and boats
+- Unreadable server files are set aside as .broken instead of being overwritten with empty ones
+- The island visualizer shows fades, quiet passages and drops
+
 BattleCraft mod 24.09.26v5 PRE-ALPHA
 Changes since build 24.09.26v4, packs unchanged. The network protocol is unchanged: a 24.09.26v5 client works with a 24.09.26v4 server.
 

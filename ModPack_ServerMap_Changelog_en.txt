@@ -1,5 +1,12 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 26.09.26v5 PRE-ALPHA
+Changes since build 26.09.26v4, packs unchanged. The network protocol is unchanged: a 26.09.26v5 client works with a 26.09.26v4 server.
+
+- The shop, airdrop and buyback editors can select several tiles at once: Ctrl+click, Shift+click for a range, a frame dragged over empty space, Ctrl+A, and Esc to clear
+- For the whole selection: one price or chance field on the right, copy, open to every team, delete, fill and empty caches, remove from buyback; dragging carries the group as a stack to a section or part on the left, and Delete removes it
+- The island visualiser bars are softer: a fall takes 75 ms instead of 60 and a rise 48 ms instead of 40, so a fade no longer drops them in a jerk
+
 BattleCraft mod 26.09.26v4 PRE-ALPHA
 Changes since build 26.09.26v3, packs unchanged. The network protocol is unchanged: a 26.09.26v4 client works with a 26.09.26v3 server.
 

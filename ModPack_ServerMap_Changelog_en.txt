@@ -1,5 +1,10 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 26.09.26hotfix PRE-ALPHA
+Changes since build 26.09.26, packs unchanged. The network protocol is unchanged: a 26.09.26hotfix client works with a 26.09.26 server.
+
+- On the add shelf of the shop, airdrop and buyback editors, Inventory and All items switch again: after All items you can go back to the inventory, and the search field appears at once
+
 BattleCraft mod 26.09.26 PRE-ALPHA
 Changes since build 24.09.26v5, packs unchanged. The network protocol is unchanged, but update the server and the client together: the fixes work on the server.
 

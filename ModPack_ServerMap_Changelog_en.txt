@@ -1,5 +1,21 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 28.09.26 PRE-ALPHA
+Changes since build 26.09.26v5, packs unchanged. The network protocol is unchanged: a 28.09.26 client works with a 26.09.26v5 server.
+
+- The main menu is now a macOS-style desktop: a menu bar, a large liquid glass clock, a dock, a control centre, a calendar on the clock, and search from any letter (worlds, servers, customization, game settings, key bindings). The classic menu is in "View", and the "Desktop" button brings the desktop back
+- Wallpapers: a dotted planet or your own picture, GIF or looping video of any resolution (up to 4K), dropped onto the game window or added in the wallpaper window; the background zooms, blurs and darkens when a menu opens
+- The player pill in the menu bar and the in-game island expand into a card through a blur: switch tracks, pause and seek on the bar. Commands go only to the session the island shows
+- Control centre: fullscreen, dots, Discord status, motion set and a mini player. Right-click the clock to toggle liquid glass and change its weight and blur
+- The desktop sleeps after 2 minutes without input: everything but the clock slides away, and a mouse move or key brings it back
+- The Frost motion set is measured frame by frame from macOS 27; glass effects ease in and out over every animation; vanilla screens close smoothly
+- Text no longer steps pixel by pixel while scrolling, pressing or switching values with arrows, and no longer jumps at the start and end of an animation
+- A barely visible halo around hints, menus and toasts on every preset; menus get their own corner shape (1-5, default 2)
+- The points key and the player list also hide base, shop, quarry ore and loot cache markers
+- World loading screens use the desktop wallpaper with the player head intact; the settings flicker is gone; minimap corners and progress rings are smoothed
+- Glass over glass: the control centre, calendar, search, menus and toasts refract the glass beneath them; mod screens in the world show the HUD through their glass
+- The in-game island no longer squeezes or twitches with the FPS and ping digits; the build version sits on the desktop as a watermark with About BattleCraft in the brand menu; sleep and first launch blur in and out, and greeting letters no longer snap into place
+
 BattleCraft mod 26.09.26v5 PRE-ALPHA
 Changes since build 26.09.26v4, packs unchanged. The network protocol is unchanged: a 26.09.26v5 client works with a 26.09.26v4 server.
 

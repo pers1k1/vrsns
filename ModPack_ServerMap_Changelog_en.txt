@@ -1,5 +1,12 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 28.09.26v3 PRE-ALPHA
+Changes since build 28.09.26hotfix, packs unchanged. The network protocol is unchanged: a 28.09.26v3 client works with a 28.09.26 server.
+
+- The island is alive again: the cover, title, time with the progress bar and the visualizer travel and resize between the pill and the card when it opens and closes, instead of fading out in one place and in at another. Same in the HUD and on the desktop
+- On a track change the old title and artist slide up and away, the new ones rise from below
+- The blur over the island's move stays
+
 BattleCraft mod 28.09.26hotfix PRE-ALPHA
 Changes since build 28.09.26, packs unchanged. The network protocol is unchanged: a 28.09.26hotfix client works with a 28.09.26 server.
 

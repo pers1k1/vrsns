@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 28.09.26hotfix PRE-ALPHA
+Changes since build 28.09.26, packs unchanged. The network protocol is unchanged: a 28.09.26hotfix client works with a 28.09.26 server.
+
+- The island never empties out: on a track change the cover, title and visualizer stay in place and only pass through a light blur
+- The island pill and card cross-fade into each other with a blur over the whole move that clears by the end; the squeeze on closing is gone
+
 BattleCraft mod 28.09.26 PRE-ALPHA
 Changes since build 26.09.26v5, packs unchanged. The network protocol is unchanged: a 28.09.26 client works with a 26.09.26v5 server.
 

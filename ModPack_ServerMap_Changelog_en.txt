@@ -1,5 +1,10 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 28.09.26v4 PRE-ALPHA
+Changes since build 28.09.26v3, packs unchanged. The network protocol is unchanged: a 28.09.26v4 client works with a 28.09.26 server.
+
+- The island is quicker: opening and closing take 0.34 s instead of 0.42 s, a track change 0.3 s. The easing, the blur over the move and the flight of the cover, title, time and visualizer are unchanged, so the motion stays as smooth, only shorter
+
 BattleCraft mod 28.09.26v3 PRE-ALPHA
 Changes since build 28.09.26hotfix, packs unchanged. The network protocol is unchanged: a 28.09.26v3 client works with a 28.09.26 server.
 

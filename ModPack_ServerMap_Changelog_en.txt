@@ -1,5 +1,13 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 03.10.26 PRE-ALPHA
+Changes since build 28.09.26v4, packs unchanged. The network protocol is unchanged: a 03.10.26 client works with a 28.09.26 server.
+
+- The island moves like the Dynamic Island on an iPhone, timed frame by frame from a screen recording of the phone. It draws in slightly before opening, springs into the card with a light overshoot, and springs back into the pill on its own curve without the draw-in
+- The whole island blurs while it moves: the glass edge, what shows through it and the contents. The pill and the card cross over under the blur, nothing disappears
+- A track change gives the island a short swell with a bounce
+- The main menu island swells under a held mouse button and opens or closes on release
+
 BattleCraft mod 28.09.26v4 PRE-ALPHA
 Changes since build 28.09.26v3, packs unchanged. The network protocol is unchanged: a 28.09.26v4 client works with a 28.09.26 server.
 

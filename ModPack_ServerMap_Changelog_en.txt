@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 03.10.26v7 PRE-ALPHA
+Changes since build 03.10.26v6, packs unchanged. The network protocol is unchanged: a 03.10.26v7 client works with a 28.09.26 server.
+
+- The last letters of a lyric line finish lighting before the line changes instead of leaving blue and stuck mid-lift
+- The first letter of a new line is in place before it lights, and short fast lines animate to the end
+
 BattleCraft mod 03.10.26v6 PRE-ALPHA
 Changes since build 03.10.26v5, packs unchanged. The network protocol is unchanged: a 03.10.26v6 client works with a 28.09.26 server.
 

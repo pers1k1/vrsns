@@ -1,5 +1,13 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 03.10.26v4 PRE-ALPHA
+Changes since build 03.10.26v3, packs unchanged. The network protocol is unchanged: a 03.10.26v4 client works with a 28.09.26 server.
+
+- Lyrics keep up with the voice: the sweep takes its pace from the gap to the next line instead of a fixed speed, spaces and punctuation no longer take time, and a new line shows up 200 ms early
+- A long lyric line scrolls after the voice smoothly, without jumping letter by letter
+- The letter being sung takes on the cover color
+- The island widens for the lyrics when the first line starts, not on the track change, and does it smoothly
+
 BattleCraft mod 03.10.26v3 PRE-ALPHA
 Changes since build 03.10.26hotfix, packs unchanged. The network protocol is unchanged: a 03.10.26v3 client works with a 28.09.26 server.
 

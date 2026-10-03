@@ -1,5 +1,13 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 03.10.26v8 PRE-ALPHA
+Changes since build 03.10.26v7, packs unchanged. The network protocol is unchanged: a 03.10.26v8 client works with a 28.09.26 server.
+
+- On a lyric line change the end of the finished line no longer drops into shadow, and the first letter of the new line no longer lifts in shadow and pops to white afterwards
+- The leaving line rises and fades before the new one comes in, two lines no longer sit on top of each other
+- Held words (at least 1 s, up to 12 letters) get an accent: the letters grow, rise, glow in the cover colour and turn bolder
+- The letter being sung rises instead of dipping
+
 BattleCraft mod 03.10.26v7 PRE-ALPHA
 Changes since build 03.10.26v6, packs unchanged. The network protocol is unchanged: a 03.10.26v7 client works with a 28.09.26 server.
 

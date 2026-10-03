@@ -1,5 +1,15 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 03.10.26hotfix PRE-ALPHA
+Changes since build 03.10.26, packs unchanged. The network protocol is unchanged: a 03.10.26hotfix client works with a 28.09.26 server.
+
+- The island glass stays sharp while it moves: the rim and the shape never blur, only the contents inside the window do
+- The artwork, the title, the time with its bar and the visualiser fly between the pill and the card again, changing size on the way
+- The title, the artist and the timer change letter by letter in a wave from left to right, and the line is never empty
+- Digits keep their natural widths with no gaps around a narrow 1, and the pill progress bar no longer jerks when a digit changes
+- The swell on a new track no longer pushes the contents sideways, and long titles scroll by the right width
+- The 3D cover flip on a track change is back, turning one way for the next track and the other way for the previous one
+
 BattleCraft mod 03.10.26 PRE-ALPHA
 Changes since build 28.09.26v4, packs unchanged. The network protocol is unchanged: a 03.10.26 client works with a 28.09.26 server.
 

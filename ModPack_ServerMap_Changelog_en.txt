@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 03.10.26v5 PRE-ALPHA
+Changes since build 03.10.26v4, packs unchanged. The network protocol is unchanged: a 03.10.26v5 client works with a 28.09.26 server.
+
+- A new typeface, Silk, taken from the Glass MediaPlayer Island and now the default: a soft even stroke with no dark rim, the island's density and a light halo. Picked in Customization; the other typefaces stay
+- The letter of the lyrics being sung glows with the cover color
+
 BattleCraft mod 03.10.26v4 PRE-ALPHA
 Changes since build 03.10.26v3, packs unchanged. The network protocol is unchanged: a 03.10.26v4 client works with a 28.09.26 server.
 

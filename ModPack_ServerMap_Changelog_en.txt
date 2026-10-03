@@ -1,5 +1,14 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 03.10.26v3 PRE-ALPHA
+Changes since build 03.10.26hotfix, packs unchanged. The network protocol is unchanged: a 03.10.26v3 client works with a 28.09.26 server.
+
+- Lyrics: the line being sung takes the place of the title in the HUD island and the main menu island and lights up letter by letter with the voice, with line changes paced by the song. On by default, switched off in Customization, where the lyrics offset lives too
+- Lyrics come from lrclib.net: the title and artist of the track are sent there
+- Fast track switching no longer leaves the island on another song or on the previous cover
+- The music bridge starts from game folders with brackets in the path, and huge covers are rejected before decoding
+- Titles and artists are cleaned of invisible characters and formatting codes, so a crafted title no longer drops the FPS
+
 BattleCraft mod 03.10.26hotfix PRE-ALPHA
 Changes since build 03.10.26, packs unchanged. The network protocol is unchanged: a 03.10.26hotfix client works with a 28.09.26 server.
 

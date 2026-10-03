@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 03.10.26v6 PRE-ALPHA
+Changes since build 03.10.26v5, packs unchanged. The network protocol is unchanged: a 03.10.26v6 client works with a 28.09.26 server.
+
+- Lyrics hold on held words: for many songs the timing comes word by word from NetEase Cloud Music (the title and artist go there, as they do to lrclib.net)
+- The leaving lyric line keeps its look, letters past the edge stay hidden during the change, and the last letters no longer fly off without animation
+
 BattleCraft mod 03.10.26v5 PRE-ALPHA
 Changes since build 03.10.26v4, packs unchanged. The network protocol is unchanged: a 03.10.26v5 client works with a 28.09.26 server.
 

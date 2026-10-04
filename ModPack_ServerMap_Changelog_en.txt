@@ -1,5 +1,14 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 05.10.26 PRE-ALPHA
+Changes since build 03.10.26v8, packs unchanged. The network protocol version is the same, so a 05.10.26 client works with a 28.09.26 server for players. The /bc editors need a 05.10.26 server.
+
+- Spotify bridge: in the Spotify desktop app with Spicetify the island takes the lyrics Spotify shows, word-timed ones with Spicy Lyrics. Needs the glass-lyrics-bridge.js extension from the mod release; the Spotify bridge switch in the island customisation is on by default
+- Every /bc screen is now an editor: the list on the left, a preview in the middle, properties on the right
+- Capture points, zones and marks sit on a map: drag to move, click the map to create, rewards shown as the item itself
+- Kill reward, teams, immortality and the /bc hub are editors too
+- New commands move points, zones and marks to a position
+
 BattleCraft mod 03.10.26v8 PRE-ALPHA
 Changes since build 03.10.26v7, packs unchanged. The network protocol is unchanged: a 03.10.26v8 client works with a 28.09.26 server.
 

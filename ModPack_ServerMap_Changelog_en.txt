@@ -1,5 +1,15 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 05.10.26hotfix PRE-ALPHA
+Changes since build 05.10.26, packs unchanged. The network protocol version is the same. The /bc editors need a 05.10.26hotfix server.
+
+- The quarry sits on a map: blocks are dots, green ready, grey regrowing; the chosen one has its own regrowth, teleport and removal without aiming, block kinds are tiles
+- Item modifiers are an editor: items as tiles, the first is the one in hand, the current modifiers and the new effect and attribute forms on the right
+- Game rules, knockdown, combat timer, map, announcements and the config guard use the editor frame with page descriptions and the module switch
+- Things on the editor maps appear, fade and move smoothly
+- The separate item picker window is gone, items are taken from the shelf everywhere
+- New command quarry at <pos> remove|cooldown set|cooldown reset
+
 BattleCraft mod 05.10.26 PRE-ALPHA
 Changes since build 03.10.26v8, packs unchanged. The network protocol version is the same, so a 05.10.26 client works with a 28.09.26 server for players. The /bc editors need a 05.10.26 server.
 

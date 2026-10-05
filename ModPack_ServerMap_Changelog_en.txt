@@ -1,5 +1,12 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 05.10.26v3 PRE-ALPHA
+Changes since build 05.10.26hotfix, packs unchanged. The network protocol version is the same.
+
+- The Spotify bridge now reaches the game: under Forge the port listened on IPv6 only while the extension posts to 127.0.0.1
+- Spicy Lyrics syllables each keep their own window, the letters inside light one by one
+- Updated glass-lyrics-bridge.js in the mod release: replace the file and run spicetify apply
+
 BattleCraft mod 05.10.26hotfix PRE-ALPHA
 Changes since build 05.10.26, packs unchanged. The network protocol version is the same. The /bc editors need a 05.10.26hotfix server.
 

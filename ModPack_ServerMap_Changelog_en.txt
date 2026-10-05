@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 05.10.26v4 PRE-ALPHA
+Changes since build 05.10.26v3, packs unchanged. The network protocol version is the same.
+
+- Lyrics light and lift by syllables like Spicy Lyrics: several letters glow at once
+- A syllable rises as a whole, holds while sung and settles smoothly instead of each letter hopping
+
 BattleCraft mod 05.10.26v3 PRE-ALPHA
 Changes since build 05.10.26hotfix, packs unchanged. The network protocol version is the same.
 

@@ -1,5 +1,12 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 05.10.26v5 PRE-ALPHA
+Changes since build 05.10.26v4, packs unchanged. The network protocol version is the same.
+
+- Kugou without Spicetify: a third word-timed lyrics source for Western songs missing from NetEase; no request for Cyrillic titles
+- The sung syllable no longer darkens on a dark cover, its glow is a little stronger
+- Credit lines like "Lyrics by:" and "Composed by:" are dropped
+
 BattleCraft mod 05.10.26v4 PRE-ALPHA
 Changes since build 05.10.26v3, packs unchanged. The network protocol version is the same.
 

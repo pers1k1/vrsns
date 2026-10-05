@@ -1,5 +1,16 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 05.10.26v6 PRE-ALPHA
+Changes since build 05.10.26v5, packs unchanged. The capture point and shop network protocol changed: update the server and clients together.
+
+- Silk typeface for everyone: the config switches to it once with its own halo, the setup wizard marks it "Recommended"
+- Sale window for shop items: opens N minutes and closes M minutes after the match start, closed outside a match; padlock with a countdown on the tile
+- Team treasury: point income goes once into a shared treasury by default, the team takes from it in its own or a neutral shop, nothing can be put in. Income used to be paid in full to every player
+- Island avatar choice: Discord, skin head or your own picture
+- The HUD keeps the same share of the screen at any resolution and GUI scale
+- The lyric syllable glow fades out smoothly instead of cutting off; lyrics search handles "ё" and "(prod. X)"
+- In the editors a dragged element no longer vanishes past the window edge, its glass shows the interface beneath, it lifts and lands; section counts show own items and roll their digits
+
 BattleCraft mod 05.10.26v5 PRE-ALPHA
 Changes since build 05.10.26v4, packs unchanged. The network protocol version is the same.
 

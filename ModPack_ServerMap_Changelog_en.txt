@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 09.10.26hotfix PRE-ALPHA
+Changes since build 09.10.26, packs unchanged. The network protocol is the same as in 05.10.26v6.
+
+- A label on the big map is held by the point it was grabbed at, rises over a shadow of its own text and settles smoothly on release
+- The colour window rises with a shadow while dragged and settles smoothly on release
+
 BattleCraft mod 09.10.26 PRE-ALPHA
 Changes since build 05.10.26v6, packs unchanged. The network protocol is the same as in 05.10.26v6.
 

@@ -1,5 +1,11 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 09.10.26 PRE-ALPHA
+Changes since build 05.10.26v6, packs unchanged. The network protocol is the same as in 05.10.26v6.
+
+- Editor tiles pick up and glide back to their own or new place smoothly, without jumps when the server answers; section rows too
+- A lyric word lifted by the highlight no longer drops in a single frame when the line changes
+
 BattleCraft mod 05.10.26v6 PRE-ALPHA
 Changes since build 05.10.26v5, packs unchanged. The capture point and shop network protocol changed: update the server and clients together.
 

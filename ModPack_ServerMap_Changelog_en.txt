@@ -1,5 +1,10 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 10.10.26 PRE-ALPHA
+Changes since build 09.10.26hotfix, packs unchanged. The network protocol is the same as in 05.10.26v6.
+
+- The syllable being sung lights up and glows in white on any cover instead of the cover colour
+
 BattleCraft mod 09.10.26hotfix PRE-ALPHA
 Changes since build 09.10.26, packs unchanged. The network protocol is the same as in 05.10.26v6.
 

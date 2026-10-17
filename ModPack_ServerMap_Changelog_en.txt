@@ -1,5 +1,20 @@
 BattleCraft ModPack & ServerMap - changelog
 
+BattleCraft mod 17.10.26 PRE-ALPHA
+Changes since build 10.10.26, packs unchanged. The network protocol has changed (battlecraft and sellmod channels): update the server together with the clients. The airdrop needs GeckoLib, which the pack already carries.
+
+- The airdrop runs on GeckoLib: a new model and animations, a strobe with a halo, signal smoke from the flare, landing dust, sounds
+- Two currencies to choose from: an item or an account with its own name and icon; purchases, selling, rewards, point income and the treasury all go through it
+- Money transfers to any player online: a Transfer button in the shop and /bc pay; a Currency node in the shop editor
+- Crafting bans: a Crafting editor in /bc and /bc craft, with always, in-match and in-lobby phases
+- Every changing number rolls digit by digit, like the island timer
+- Letters come to rest at the end of an animation without a jump or a tremble
+- Editor tiles in /bc fill the row, and glass over them bends the item icons
+- Customization moved onto the editor layout, presets as tiles
+- Team select reworked: columns with player heads, join with a click, the title stays inside its plate
+- Leaving a screen with the frost motion set no longer drops frames
+- Holes closed: ingredient duplication around crafting bans, endless starting money through new nicknames, transfers to a dead player, selling without a cap
+
 BattleCraft mod 10.10.26 PRE-ALPHA
 Changes since build 09.10.26hotfix, packs unchanged. The network protocol is the same as in 05.10.26v6.
 

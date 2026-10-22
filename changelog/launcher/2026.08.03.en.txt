@@ -1,0 +1,10 @@
+03.08.26
+- New versioning scheme: instead of numbers like 8.6.6, a version is now its release date - 03.08.26. A second build on the same day adds hotfix or v2 to the date (03.08.26hotfix, 03.08.26v2)
+- Nicknames are limited to 16 characters, the Minecraft limit: longer names could not join a server
+- Buttons no longer drift or stay enlarged after a click: hover and press animations are separated and always return the button to its original place
+- Removed the dotted focus outline that appeared when tabbing across buttons and checkboxes
+- In the servers tab, buttons and checkboxes are no longer clipped: the header with the tabs was moved out of the scrolling area and the glow got its own padding
+- Text fields no longer jitter while typing and no longer bleed past the panel edge: instead of resizing, the field lights up its border
+- Font glyphs in the interface were replaced with vector icons that recolor with the selected theme
+- The settings window now closes itself after a full settings reset
+- The launcher is now licensed under AGPL-3.0: forks and derivative builds must stay open source and keep the credit to the author

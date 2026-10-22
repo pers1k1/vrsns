@@ -1,0 +1,4 @@
+12.08.26v12
+- The attack indicator is gone from the graphics settings
+- Swap offhand, third-person view and advancements are gone from the controls
+- Sprint, parkour speed-up and vehicle speed-up are merged into a single binding: change the key once and it works everywhere

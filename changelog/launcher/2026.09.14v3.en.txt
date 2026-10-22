@@ -1,0 +1,5 @@
+14.09.26v3
+- A nickname can no longer be typed in anything but Latin: the field takes letters, digits and _ only, pasted text included
+- A nickname edited into the config by hand is reported on start and the launcher asks for a new one
+- The server whitelist follows the same rule
+- Version numbers now understand a suffix like hotfixv2

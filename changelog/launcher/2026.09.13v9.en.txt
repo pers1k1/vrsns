@@ -1,0 +1,2 @@
+13.09.26v9
+- The pack files are verified in parallel: the walk takes two tenths of a second instead of a full one

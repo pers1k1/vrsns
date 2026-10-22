@@ -1,0 +1,7 @@
+12.08.26v4
+- Controls in the game settings are split into sections: parkour, weapons, vehicles, BattleCraft, comms and other, instead of one long list
+- Wall slide moved to X, hanging from a ledge and clinging to a cliff moved to the right mouse button
+- Graphics gained field of view, brightness, clouds, entity shadows, view bobbing and auto jump
+- A sound section appeared: master volume, music, ambient and weather
+- The button showing an assigned key is no longer shifted to the right
+- Removed the vanilla hotbar hotkeys: by default they sat on C and X, the very keys used for zoom and dodge roll

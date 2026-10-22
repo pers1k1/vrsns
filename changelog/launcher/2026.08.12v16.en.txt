@@ -1,0 +1,3 @@
+12.08.26v16
+- Weapon customization moved from I to U and opens both the TACZ attachment screen and the Superb Warfare weapon edit screen with a single key
+- The SecurityCraft default camera viewing direction is unbound from U, otherwise the key would fire twice

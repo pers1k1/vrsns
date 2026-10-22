@@ -1,0 +1,3 @@
+v8.6.2
+- The "Night aurora" and "Theme flow" backgrounds are twice as light on the GPU again: their animations now run in the same tick as the scene renderer, with no extra frame rebuilds
+- "Theme flow" now consumes less than the animated pixel scene

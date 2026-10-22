@@ -1,0 +1,2 @@
+v8.4.2
+- Smooth scrolling inside dropdown lists (presets, language, servers) — the wheel now glides the list with inertia, just like in settings

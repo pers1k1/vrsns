@@ -1,0 +1,6 @@
+05.09.26
+- The modpack's recommended settings now reach everyone: an options file shipped inside the mods archive used to override them
+- When the recommended set changes, the launcher asks once whether to apply it and remembers the answer
+- A modpack update no longer wipes personal game settings
+- Game settings do not open while the game is running, since Minecraft would rewrite them on exit
+- The settings window no longer unbinds keys that are missing from the options file

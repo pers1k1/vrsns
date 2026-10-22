@@ -1,0 +1,4 @@
+12.08.26v7
+- A key bound to two actions at once now turns red, gets bracketed and shows a red mark on the left, the way the game itself does it
+- Leaving a vehicle moved to F, interacting with one moved to L
+- Vanilla options joined the game settings: mouse sensitivity and inversion, entity render distance, biome blend, mipmap levels, main hand, attack indicator, subtitles, pause on lost focus, toggle sneak and sprint, smooth lighting

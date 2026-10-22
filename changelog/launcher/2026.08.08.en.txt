@@ -1,0 +1,2 @@
+08.08.26
+- After an update a BCR.exe.old file could be left next to the launcher: the new build waits for the old one to exit and then deletes the leftover, retrying while the file is still locked, so no update residue remains

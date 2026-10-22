@@ -1,0 +1,6 @@
+26.09.26
+- The launcher checks the game folder path: non-Latin letters, characters like ! # % ; +, network and overly long paths are refused
+- Instead of an unsuitable path the launcher offers to create a folder like C:\BattleCraft right away
+- If the game already sits in such a folder, the Play button and the system check offer to move it; on the same drive the files move without downloading again, servers included
+- The first-run wizard no longer wipes the chosen folder without asking, and never wipes the folder the launcher itself lives in
+- Server folders get Latin-only names, and two servers no longer end up in one folder

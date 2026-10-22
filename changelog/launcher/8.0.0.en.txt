@@ -1,0 +1,34 @@
+v8.0.0
+- Button pop animations: a bubble bursts under the cursor on click — particles fly apart and a neon ring spreads out
+- The side menu came alive: smooth highlighting, sliding items and an elastic response on click
+- Animated switching between the Play and Servers tabs
+- Smooth entry into the launcher after setup, animated appearance of the login screen
+- Microsoft sign-in now shows a loading screen; on failure — a "try again" message
+- New ChangeLogs section: launcher and modpack history right in the side menu
+- Neon terminal glow and terminal opacity adjustment (from 5%)
+- The Sakura theme is now the default
+- The settings menu always opens from the top of the list
+- Fixed increased GPU usage while the launcher is minimized or in the background
+
+v7.9.x
+- Transparent glass panels, welcome animations pause in the background
+- Living pixel scene: time of day and seasons change
+- Weather: rain, snow, fog, thunderstorm with lightning from the clouds, comets behind the mountains
+- Trees with branching trunks and crowns, sakura with petals in spring, falling leaves in autumn
+- Snow, leaf and puddle accumulation, an uneven horizon, a figure with an umbrella
+
+v7.8
+- Separate installation and updating of the BattleCraft mod for the client and the server
+
+v7.7
+- Network download log and smooth percentage progress
+
+v7.6
+- Forge installation split into stages, a libraries warning, a unified log and crash reports
+
+v7.5
+- Installation into a BattleCraft subfolder with a clean reinstall
+
+v7.0 — v7.4
+- Pixel animated background and terminal menu, new logo, Discord RPC
+- Fixed lags and freezes while installing large files

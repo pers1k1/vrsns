@@ -1,0 +1,4 @@
+v8.6.5
+- Every launcher animation now runs on a purpose-built engine: instead of dozens of separate WPF animations, all motion is computed from formulas within a single render tick
+- The launcher detects the refresh rate of the display it is open on and paces animations to it; the rate is re-checked when the window moves to another monitor or the display mode changes
+- The particle burst on button clicks is noticeably lighter on the GPU: it is drawn as a single layer instead of a dozen and a half separate elements

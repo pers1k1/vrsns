@@ -1,0 +1,2 @@
+12.08.26v10
+- Missile lock-on for planes, helicopters and armour is now on X by default

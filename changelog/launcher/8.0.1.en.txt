@@ -1,0 +1,5 @@
+v8.0.1
+- The boot screen (creeper and glow) is now tinted to match the selected color preset
+- The Sakura theme is actually applied by default (fixed the default)
+- A loading screen while the official Minecraft profile loads (Microsoft license check)
+- Required components are checked at startup: if Microsoft Edge WebView2 is missing, it is downloaded and installed automatically

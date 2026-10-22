@@ -1,0 +1,7 @@
+v8.2.0
+- The color preset list no longer closes while you scroll it with the wheel
+- Changing a preset smoothly blends the theme into the new colors instead of switching instantly
+- Dropdown lists open with a springy animation, items highlight and shift on hover
+- Sliders came alive: they grow on hover and pulse with a neon halo while dragging
+- Input fields slightly grow on focus and bounce elastically on every keystroke
+- Pop animation when picking a value in any list

@@ -1,0 +1,6 @@
+22.10.26
+- The ChangeLogs window no longer lags or tears the picture: entries load six at a time, the rest open with the "Show more" button
+- While ChangeLogs is open, the background scene pauses and leaves the video card alone
+- The launcher writes more to latest.log: downloads and their retries, server install and operation, failures that used to pass silently
+- The Microsoft sign-in token no longer ends up in game-output.log
+- A server whose Java failed to start no longer gets stuck in the starting state

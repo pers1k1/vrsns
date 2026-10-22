@@ -38,15 +38,38 @@ understands both and always treats a dated version as newer than a numbered one.
 
 ## Changelogs
 
-| File | Shown in |
-| --- | --- |
-| `Launcher_changelog.txt` | Launcher tab, Russian interface |
-| `Launcher_changelog_en.txt` | Launcher tab, English interface |
-| `ModPack_ServerMap_Changelog.txt` | ModPack & ServerMap tab, Russian interface |
-| `ModPack_ServerMap_Changelog_en.txt` | ModPack & ServerMap tab, English interface |
+Since launcher 22.10.26 every changelog entry is a file of its own:
 
-Newest entry goes on top, and both language files get the same entry. All files
-are UTF-8 without BOM.
+```
+changelog/
+  launcher/            Launcher tab
+    index.txt
+    2026.09.26.ru.txt
+    2026.09.26.en.txt
+  modpack/             ModPack & ServerMap tab
+    index.txt
+    mod-2026.10.17hotfix.ru.txt
+    mod-2026.10.17hotfix.en.txt
+```
+
+- `index.txt` lists entry ids one per line, **oldest first, newest last**. A new
+  release appends one line and never rewrites the file.
+- An id is `A-Z a-z 0-9 . _ -`, up to 64 characters, no `..`. Launcher entries
+  use the canonical version (`2026.10.22`), pack entries `mod-<version>` for a
+  mod-only build and `pack-<version>` when the pack itself changed.
+- `<id>.ru.txt` and `<id>.en.txt`: the first line is the title shown in accent
+  colour (`22.10.26`, `Мод BattleCraft 17.10.26hotfix PRE-ALPHA`), the rest is
+  the body. A missing `.en.txt` falls back to the Russian one.
+- An entry is capped at 32 KB, the index at 64 KB. All files are UTF-8 without BOM.
+
+Adding a release entry is three steps: write `<id>.ru.txt`, write `<id>.en.txt`,
+append `<id>` to `index.txt`. The launcher fetches the index and only the six
+newest entries, then six more per "Show more" click.
+
+The old single files (`Launcher_changelog.txt`, `Launcher_changelog_en.txt`,
+`ModPack_ServerMap_Changelog.txt`, `ModPack_ServerMap_Changelog_en.txt`) are
+frozen at 22.10.26 and only serve launchers older than 22.10.26. Do not add
+entries to them; they can be deleted once no such launcher is left.
 
 ## License and attribution
 

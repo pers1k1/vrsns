@@ -1,0 +1,10 @@
+BattleCraft mod 17.10.26hotfix PRE-ALPHA
+Hotfix for build 17.10.26, packs unchanged, same network protocol.
+
+- The frost motion set no longer blacks out the world and the HUD with Distant Horizons and Embeddium
+- Centred timers no longer roll minutes that did not change
+- The HUD on 1920x1080 is smaller and no longer runs into itself, the HUD size slider is on the Interface tab
+- A dropped tile in the editors lands without a hop
+- The selection plate in a list no longer drifts while scrolling
+- A number can be typed again right after +/-
+- Each preset card shows its own glass and no longer follows the applied preset

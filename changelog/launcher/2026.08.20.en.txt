@@ -1,0 +1,3 @@
+20.08.26
+- The theme colors, primary and accent, are handed to the game: the BattleCraft mod paints its own interface in the palette picked in the launcher
+- The theme is refreshed in the game folder as soon as a color changes and again before every launch

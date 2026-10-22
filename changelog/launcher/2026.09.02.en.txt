@@ -1,0 +1,3 @@
+02.09.26
+- The loader splash shown while the game starts is dark now instead of red and no longer clashes with the pack palette
+- The dark splash is applied on every launch, not only on fresh installs

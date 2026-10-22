@@ -1,0 +1,3 @@
+14.09.26
+- A petal no longer blinks just before it lands: on the frame it touched the ground nothing drew it
+- The petal litter lies under the sakura crowns and fades out away from them instead of covering the whole ground evenly

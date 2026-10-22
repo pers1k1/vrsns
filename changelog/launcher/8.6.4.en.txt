@@ -1,0 +1,5 @@
+v8.6.4
+- Forge installation is more reliable: installer failures are now detected immediately, and the launcher no longer reports "Installation complete" when Forge did not install
+- Closing the launcher in any way (including Alt+F4) now stops a running server — previously it could keep running in the background
+- Unexpected errors no longer crash the launcher silently: a message is shown and a report is saved to crash-reports
+- Resuming a download now completes correctly when the file is already fully downloaded, and truncated server responses trigger a retry

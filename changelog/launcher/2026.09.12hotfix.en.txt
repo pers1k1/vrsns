@@ -1,0 +1,2 @@
+12.09.26hotfix
+- The default GUI scale stays at 2: automatic looked worse

@@ -1,0 +1,5 @@
+v8.4.0
+- The preset list is now as interactive as the other menus: items highlight and shift on hover, the selected one is shown in bold
+- Every preset in the list has two color dots (primary color and accent), so you can see the palette before choosing
+- Applying a preset smoothly blends the whole theme: background, buttons, neon glows and even the kite on the pixel scene flow into the new colors
+- The saved preset is now highlighted in the list when settings are opened

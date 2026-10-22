@@ -1,0 +1,3 @@
+12.08.26v14
+- The game now runs on the Shenandoah garbage collector: its pauses are single-digit milliseconds instead of the previous two hundred, and they used to land exactly on far terrain loading. Short stutters when entering open areas should be gone
+- Removed the Distant Horizons startup warnings from chat: about Chunky, the garbage collector and explicit memory cleanup

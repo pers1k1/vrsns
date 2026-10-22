@@ -1,0 +1,5 @@
+v8.6.0
+- Two more backgrounds to choose from — four in total now, for every taste:
+- "Theme flow" (animated): soft color fields in your theme colors slowly drift and blend into each other in a beautiful gradient
+- "Minimal" (static): a calm theme-matched gradient with a subtle accent glow — no animations at all
+- All backgrounds are re-tinted live when the color preset changes

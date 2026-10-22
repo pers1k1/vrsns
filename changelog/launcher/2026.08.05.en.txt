@@ -1,0 +1,3 @@
+05.08.26
+- The build info listed Forge 47.4.20 while the launcher installs 47.4.22: the version is now read from the launcher itself and can no longer drift from what it installs
+- Checkboxes no longer spill past the panel edge on hover: the growth fits the space reserved for the checkbox, so in the servers tab the outline is neither clipped nor overlapping the next block

@@ -1,0 +1,3 @@
+14.08.26
+- Ping location moved from Mouse 4 to the mouse wheel button and places both the Ping Wheel marker and the Superb Warfare target mark with a single key
+- Pick block moved from the wheel button to Mouse 4 so it no longer clashes with the ping

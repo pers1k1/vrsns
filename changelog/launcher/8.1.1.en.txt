@@ -1,0 +1,6 @@
+v8.1.1
+- The offer to install Java when it is missing now works on any Windows language
+- The CANCEL button terminates the game together with all child processes — nothing is left hanging in the background
+- Downloads without a known size no longer pile up in RAM
+- More reliable file copying during server installation and updates
+- Terminal errors are always marked with the [ERR] level

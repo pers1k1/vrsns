@@ -1,0 +1,5 @@
+10.09.26
+- Missing managed config files are created before the first launch, so Explosion Overhaul no longer opens its setup screen
+- The recommended GUI scale is now 2 and music volume is 2%
+- Minecraft's initial accessibility screen is skipped when BattleCraft is installed
+- GUI scale 4 is available in game settings again and no longer saves as 3

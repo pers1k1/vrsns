@@ -1,0 +1,11 @@
+v8.1.0
+- The interface became noticeably smoother: the animated background and the blob are now computed on a background thread, the window no longer stutters while dragging or during downloads
+- Reduced CPU and memory usage
+- English language: a switch in settings, full translation of the interface and logs
+- Reliable downloads: on a connection drop the file resumes from where it stopped, up to 5 automatic retries, stalled connections are cut off quickly
+- When the server port is busy, only the process holding the port is terminated, not all Java applications (a running game is no longer affected)
+- Changing the game folder no longer deletes files silently: if the folder is not empty, the launcher asks for confirmation
+- Mod and map versions are now stored separately for each server: updating one server no longer hides updates for the others
+- Declining a map update no longer marks it as updated — the offer returns on the next start
+- Fixed a freeze of dialog windows opened at the same time
+- The launcher slimmed down by about 3 MB by removing unused libraries

@@ -1,0 +1,3 @@
+v8.6.1
+- The "Night aurora" and "Theme flow" backgrounds are now much lighter on the GPU: their animations no longer tick at the monitor refresh rate (on 144 Hz the load dropped almost in half)
+- The gradient layers of these backgrounds are cached into textures — less GPU work on weaker machines

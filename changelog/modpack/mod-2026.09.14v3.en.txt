@@ -1,0 +1,6 @@
+BattleCraft mod 14.09.26v3 PRE-ALPHA
+Fixes on top of the previous build, the packs are unchanged.
+
+- A showcase tile lifts when it is picked up and settles with a motion when it is dropped
+- A dropped tile travels from where it was let go instead of from the slot it came from
+- The team button in the editor no longer flickers

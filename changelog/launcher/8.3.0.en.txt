@@ -1,0 +1,6 @@
+v8.3.0
+- Preset and language menus now use the squircle style like the rest of the launcher: rounded corners, soft shadow, spacing from the field
+- Tooltips and context menus (copy/paste) redrawn to match the launcher theme — gray system windows no longer pop up anywhere
+- The dropdown arrow smoothly flips when the list opens
+- Checkboxes springily grow on hover
+- Unified corner radius for buttons, fields and lists — the interface feels more cohesive

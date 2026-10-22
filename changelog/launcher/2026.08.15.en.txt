@@ -1,0 +1,3 @@
+15.08.26
+- The Crawl key is no longer bound for TACZ: lying down is handled by ParCool alone and now obeys stamina
+- The recommended layout leaves the TACZ crawl key unbound

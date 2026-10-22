@@ -1,0 +1,5 @@
+v8.5.0
+- New static "Night aurora" background: a night sky with aurora ribbons tinted by the theme accent, twinkling stars, a moon and shooting stars over mountain silhouettes
+- Background selection in settings: the animated pixel scene or the static aurora — switching cross-fades smoothly
+- In static mode the pixel scene is not simulated — lower CPU usage
+- The changelog now opens in the interface language: an English version has been added

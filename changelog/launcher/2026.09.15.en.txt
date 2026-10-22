@@ -1,0 +1,3 @@
+15.09.26
+- The recommended layout follows the new mod: radio transmit on Caps Lock, the points key left of the digits, capture and revive back on left Alt, goggle zoom on Y
+- Interacting with a gun in hand moved to mouse button 5 and joined the action list of the game settings window

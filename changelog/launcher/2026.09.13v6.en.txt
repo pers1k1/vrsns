@@ -1,0 +1,4 @@
+13.09.26v6
+- Downloading the Minecraft files resumes where it broke instead of failing whole: up to twelve attempts in a row
+- After a break the number of download threads narrows from twelve to four, two and one and is remembered, which is what makes it work behind an antivirus that inspects HTTPS
+- The log is no longer flooded with repeats of the same system-check warning

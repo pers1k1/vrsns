@@ -1,0 +1,3 @@
+12.08.26v5
+- Parkour front and back flips are off, and so is the landing roll: it fired from the jump key right after a fall and got in the way
+- The launcher fixes the parkour settings itself on first install and from the recommended settings button, so there is no need to wait for a modpack update

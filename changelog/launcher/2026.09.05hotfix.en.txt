@@ -1,0 +1,2 @@
+05.09.26hotfix
+- The launcher no longer enables a pack resource pack in the game options: the resource pack list is left to the player

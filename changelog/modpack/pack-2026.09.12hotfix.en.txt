@@ -1,0 +1,3 @@
+ModPack 12.09.26hotfix · BattleCraft mod 12.09.26v2 ALPHA
+- Distant Horizons builds its far terrain from already generated chunks and asks the server for them instead of generating the world locally: less disk and CPU load when flying over unfamiliar chunks
+- The server mods and the BattleCraft mod are unchanged; only the client pack is updated

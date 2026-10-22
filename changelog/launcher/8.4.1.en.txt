@@ -1,0 +1,3 @@
+v8.4.1
+- Fixed theme switching: preset selection and manual HEX colors apply again (regression since 8.2.0 — the color animation was silently failing)
+- Side menu buttons no longer stick with an offset after being pressed

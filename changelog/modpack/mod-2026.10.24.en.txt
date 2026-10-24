@@ -1,0 +1,6 @@
+BattleCraft mod 24.10.26 PRE-ALPHA
+Changes since build 17.10.26hotfix, packs unchanged. The network protocol has changed (battlecraft channel): update the server together with the clients.
+
+- The pack's own player list on Tab: a glass window in the /bc style, team cards in their colour, heads, names with the team prefix, the objective score, ping as bars with the number, the server's header and footer
+- Server TPS in the list: players online, TPS against the wall clock, the average tick time and your own ping; the numbers turn amber and red as they degrade and roll like the island timer
+- The list appears with the chosen motion set and, when Tab is released, stays in the world and burns, splinters or thaws away like the /bc screens

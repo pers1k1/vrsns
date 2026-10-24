@@ -1,0 +1,5 @@
+BattleCraft mod 24.10.26hotfix PRE-ALPHA
+Hotfix for build 24.10.26, packs unchanged, same network protocol.
+
+- The own player list on Tab can be switched off in customization (Interface tab, HUD elements): off brings back the vanilla list
+- Showing the server TPS to players can be switched off with the "Server TPS in the player list" game rule in /bc: the list then keeps players online and your own ping

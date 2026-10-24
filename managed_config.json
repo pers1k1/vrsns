@@ -3,7 +3,7 @@
   "files": {
     "config/DistantHorizons.toml": {
       "enableDistantGeneration": "false",
-      "enableServerGeneration": "false",
+      "enableServerGeneration": "true",
       "numberOfThreads": "3",
       "threadRunTimeRatio": "\"0.6\"",
       "showModCompatibilityWarningsOnStartup": "false",

@@ -1,0 +1,8 @@
+BattleCraft mod 25.10.26v3 PRE-ALPHA
+Changes on top of build 25.10.26hotfix, packs unchanged, same network protocol.
+
+- New Match rules screen for every player: in the pause menu (in place of the two vanilla feedback links), on the team select screen and in /bc
+- Mode page: how to win in words, score target, time cap, sudden death, what gives score, quarries, starting money and the starting kit as tiles; during a match it shows the numbers of the running match
+- Operators can add their own description to each mode (/bc - Modes or /bc mode <mode> describe <text>), shown under the rules
+- Craft bans page: banned items per phase with search, when each ban applies and whether it applies now; when bans change, players get one toast with the names, and new bans are marked
+- Game rules page: the server rules in groups, on or off, with explanations

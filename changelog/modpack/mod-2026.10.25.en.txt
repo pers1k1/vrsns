@@ -1,0 +1,12 @@
+BattleCraft mod 25.10.26 PRE-ALPHA
+Changes on top of build 24.10.26hotfix, packs unchanged. Network protocol changed (battlecraft and capturepoints channels): update the server together with the clients.
+
+- Two match modes: Main with quarries and Fast, capture only without quarries. The mode is voted in the lobby; with no votes or a tie the default mode from /bc is used; an operator can lock the mode
+- Win by score: a held point gives its team score every minute, an enemy kill 2, a destroyed enemy armed vehicle or aircraft 5, unarmed transport 0. The target is 200 in Main and 100 in Fast, the final point still ends the match on capture
+- Time cap of 75 minutes in Main and 35 in Fast: at the cap the leader wins, and with a lead under 5 the final point opens to both teams for 5 or 3 minutes (sudden death)
+- The objective bar shows your team score and the best rival, the clock counts down to the cap and turns red in sudden death
+- The vote tiles sit left and right of the Ready button, so the team columns keep their player rows
+- The mode's starting kit and starting money are given once at the start; items from the inventory keep their attachments and data
+- New Modes studio in /bc: every mode number, the kit as tiles with reordering and bulk removal, lock and reset; the same through /bc mode
+- Score, mode snapshot and sudden death survive a server restart, switching the core off mid-match closes the mode
+- Quarry blocks cannot be broken while quarries are off by a mode or by the operator: before, the ore was lost for good

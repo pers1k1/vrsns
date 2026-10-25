@@ -50,3 +50,4 @@ mod-2026.10.17hotfix
 mod-2026.10.24
 mod-2026.10.24hotfix
 mod-2026.10.25
+mod-2026.10.25hotfix

@@ -1,0 +1,9 @@
+BattleCraft mod 25.10.26hotfix PRE-ALPHA
+Hotfix for build 25.10.26, packs unchanged. Network protocol changed (capturepoints channel): update the server together with the clients.
+
+- The end-of-match banner says why the match ended (final point, score target, time cap leader, sudden death, surrender, operator stop or draw) and shows the final score; surrender and an operator stop get a banner too
+- Sudden death has its own banner: the final point is open to both teams and for how many minutes, with the current score
+- Every point has its own score per minute: by mode (default) or 0 to 10, in /bc - Points or with /capturepoint setscore
+- Hovering a point on the big map shows what it gives: owner, role and capture time, score per minute, income, capture reward and buff; the window comes and goes with your motion set
+- Bulk edits in the /bc studios (removing several tiles, moving, copying) apply at once instead of one by one a second later
+- Guns in a mode's starting kit take attachments through the same workbench as loot and shop

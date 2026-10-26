@@ -1,0 +1,8 @@
+BattleCraft mod 26.10.26 PRE-ALPHA
+Changes on top of build 25.10.26v3, packs unchanged. Core network protocol 8: update the server together with the clients.
+
+- Point bases: an operator marks a capture point as a base (/bc - Points - Point base or /capturepoint setbase "<point>" true); while a team holds the point, it works as one more base of that team
+- Respawn at a point base: the death screen shows a button per point base of your team under the vanilla ones; the vanilla Respawn still leads home, and a point lost while the death screen is open sends you home too
+- Travel between bases: the Travel button in the shop of an own base, or ALT on a point base when its shop is off; stand still for the channel (5 s by default), moving, any hit, a knockdown or combat breaks it; vehicles stay behind, cooldown 60 s by default
+- The shop and the team treasury open with ALT on an own point base; enemy shops no longer sell to you
+- All of it is switched on and off in /bc - Points - Point bases (respawn, travel, shop, channel and cooldown) or with /capturepoint bases commands
